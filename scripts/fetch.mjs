@@ -153,6 +153,21 @@ function entryFromEspn(espnEv) {
            startMs, age: Date.now() - startMs };
 }
 
+// ─── Jornada activa (solo phaseType === 'matchday') ─────────────────────────
+
+function activeRound(enriched) {
+  const liveRounds = enriched.filter(e => e.state === 'live').map(e => parseInt(e.ev.intRound)).filter(Boolean);
+  if (liveRounds.length) return Math.max(...liveRounds);
+
+  const finishedRounds = enriched.filter(e => e.state === 'final').map(e => parseInt(e.ev.intRound)).filter(Boolean);
+  if (finishedRounds.length) return Math.max(...finishedRounds);
+
+  const upcomingRounds = enriched.filter(e => e.state === 'next').map(e => parseInt(e.ev.intRound)).filter(Boolean);
+  if (upcomingRounds.length) return Math.min(...upcomingRounds);
+
+  return null;
+}
+
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -198,29 +213,32 @@ async function main() {
     return { ev, state, hs, as, minute, hImg, aImg, startMs, age };
   });
 
-  // Prioridad: live > próximos (72 h) > finalizados (48 h)
-  const live     = enriched.filter(e => e.state === 'live');
-  const upcoming = enriched.filter(e => e.state === 'next'  && e.age < 72 * 3600_000)
-                           .sort((a, b) => a.startMs - b.startMs);
-  const finished = enriched.filter(e => e.state === 'final' && e.age < 48 * 3600_000)
-                           .sort((a, b) => b.startMs - a.startMs);
+  let selected;
 
-  let selected = [...live, ...upcoming, ...finished].slice(0, 10);
+  if (COMP.phaseType === 'matchday') {
+    // Selección por jornada activa: todos los partidos de la ronda actual
+    const round = activeRound(enriched);
+    selected = round
+      ? enriched.filter(e => parseInt(e.ev.intRound) === round).sort((a, b) => a.startMs - b.startMs)
+      : enriched.sort((a, b) => a.startMs - b.startMs).slice(0, 10);
+  } else {
+    // Prioridad clásica: live > próximos (72 h) > finalizados (48 h)
+    const live     = enriched.filter(e => e.state === 'live');
+    const upcoming = enriched.filter(e => e.state === 'next'  && e.age < 72 * 3600_000)
+                             .sort((a, b) => a.startMs - b.startMs);
+    const finished = enriched.filter(e => e.state === 'final' && e.age < 48 * 3600_000)
+                             .sort((a, b) => b.startMs - a.startMs);
+    selected = [...live, ...upcoming, ...finished].slice(0, 10);
 
-  if (!selected.length) {
-    selected = enriched.filter(e => e.state === 'next')
-                       .sort((a, b) => a.startMs - b.startMs)
-                       .slice(0, 10);
-  }
+    if (!selected.length) {
+      selected = enriched.filter(e => e.state === 'next').sort((a, b) => a.startMs - b.startMs).slice(0, 10);
+    }
 
-  // Si TSDB no tiene partidos relevantes, usar ESPN directamente
-  // (ocurre en competiciones donde TSDB tiene solo rondas pasadas)
-  if (!selected.length && espnEvents.length) {
-    console.warn('TSDB sin partidos relevantes — usando ESPN como fuente directa');
-    selected = espnEvents
-      .map(entryFromEspn)
-      .sort((a, b) => a.startMs - b.startMs)
-      .slice(0, 10);
+    // Si TSDB no tiene partidos relevantes, usar ESPN directamente
+    if (!selected.length && espnEvents.length) {
+      console.warn('TSDB sin partidos relevantes — usando ESPN como fuente directa');
+      selected = espnEvents.map(entryFromEspn).sort((a, b) => a.startMs - b.startMs).slice(0, 10);
+    }
   }
 
   const matches = selected.map(({ ev, state, hs, as, minute, hImg, aImg }) => {
@@ -237,22 +255,31 @@ async function main() {
     };
     if (state === 'live' && minute) m.minute = minute;
     if (state === 'next') {
-      m.group = ev.strRound || '';
+      m.group = COMP.phaseType === 'matchday' ? '' : (ev.strRound || '');
       m.date  = ev.dateEvent ? formatDate(ev.dateEvent, ev.strTime) : '';
     }
+    if (COMP.phaseType === 'matchday') m.round = parseInt(ev.intRound) || 0;
     return m;
   });
 
-  const refRound = (live[0] ?? selected[0])?.ev.strRound;
-  // Prioridad: fase de TSDB/ESPN por partido → fase global del scoreboard ESPN → defaultPhase
-  const phase    = phaseFromRound(refRound) !== COMP.defaultPhase
-                   ? phaseFromRound(refRound)
-                   : (espnPhaseName ? phaseFromRound(espnPhaseName) : COMP.defaultPhase);
-  const espnLive = live.filter(e => espnIndex.has(`${normalize(e.ev.strHomeTeam)}|${normalize(e.ev.strAwayTeam)}`)).length;
+  const liveCount = selected.filter(e => e.state === 'live').length;
+  const espnLive  = selected.filter(e => e.state === 'live' && espnIndex.has(`${normalize(e.ev.strHomeTeam)}|${normalize(e.ev.strAwayTeam)}`)).length;
+
+  // Fase: para jornadas usar intRound; para otros, lógica existente
+  let phase;
+  if (COMP.phaseType === 'matchday' && selected.length) {
+    phase = `JORNADA ${parseInt(selected[0].ev.intRound)}`;
+  } else {
+    const refRound = (selected.find(e => e.state === 'live') ?? selected[0])?.ev.intRound
+                  ?? (selected.find(e => e.state === 'live') ?? selected[0])?.ev.strRound;
+    phase = phaseFromRound(refRound) !== COMP.defaultPhase
+            ? phaseFromRound(refRound)
+            : (espnPhaseName ? phaseFromRound(espnPhaseName) : COMP.defaultPhase);
+  }
 
   const out = { updatedAt: new Date().toISOString(), title: COMP.title, phase, matches };
   writeFileSync(OUT, JSON.stringify(out, null, 2), 'utf8');
-  console.log(`✓ [${COMPETITION}] ${matches.length} partidos — ${live.length} live (${espnLive} via ESPN), fase: ${phase}`);
+  console.log(`✓ [${COMPETITION}] ${matches.length} partidos — ${liveCount} live (${espnLive} via ESPN), fase: ${phase}`);
 }
 
 // ISO-3166-1 alpha-2 para selecciones (solo usado en competition=mundial)
