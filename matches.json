@@ -1,6 +1,6 @@
 {
-  "updatedAt": "2026-04-23T17:48:53.133Z",
-  "phase": "MUNDIAL 2026",
+  "updatedAt": "2026-04-23T17:54:00.123Z",
+  "phase": "FASE DE GRUPOS",
   "matches": [
     {
       "home": "Mexico",
@@ -74,8 +74,8 @@
       "state": "next",
       "hs": 0,
       "as": 0,
-      "hCode": "ha",
-      "aCode": "sc",
+      "hCode": "ht",
+      "aCode": "gb-sct",
       "group": "",
       "date": "14 JUN · 01:00 h"
     },
