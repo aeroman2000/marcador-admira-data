@@ -1,6 +1,33 @@
 {
-  "updatedAt": "2026-04-23T18:15:31.928Z",
+  "updatedAt": "2026-04-23T18:17:40.729Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "CHAMPIONS LEAGUE",
-  "matches": []
+  "matches": [
+    {
+      "home": "Paris Saint-Germain",
+      "away": "Bayern Munich",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+      "group": "1st Leg",
+      "date": "28 ABR · 19:00 h"
+    },
+    {
+      "home": "Atlético Madrid",
+      "away": "Arsenal",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+      "group": "1st Leg",
+      "date": "29 ABR · 19:00 h"
+    }
+  ]
 }
