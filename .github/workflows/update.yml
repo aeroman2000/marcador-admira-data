@@ -1,0 +1,32 @@
+name: Actualizar matches.json
+
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # cada 15 min ≈ 96 req/día (dentro del free tier)
+  workflow_dispatch:           # disparo manual para pruebas
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Fetch datos de API-Football
+        env:
+          APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
+        run: node scripts/fetch.mjs
+
+      - name: Commit matches.json si hay cambios
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add matches.json
+          git diff --cached --quiet || git commit -m "chore: actualizar matches.json [skip ci]"
+          git push
