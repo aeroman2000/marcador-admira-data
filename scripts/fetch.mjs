@@ -4,7 +4,7 @@ import { writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
-const OUT  = join(dirname(fileURLToPath(import.meta.url)), '..', 'matches.json');
+const OUT  = join(dirname(fileURLToPath(import.meta.url)), '..', process.env.OUTPUT_FILE || 'matches.json');
 const TSDB = 'https://www.thesportsdb.com/api/v1/json/3';
 
 // ─── Configuración por competición ──────────────────────────────────────────

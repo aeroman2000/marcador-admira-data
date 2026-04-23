@@ -1,4 +1,4 @@
-name: Actualizar matches.json (5 min)
+name: Actualizar competiciones (5 min)
 
 on:
   schedule:
@@ -6,22 +6,23 @@ on:
   workflow_dispatch:
     inputs:
       competition:
-        description: 'Competición a mostrar'
+        description: 'Competición a actualizar'
         required: false
-        default: 'mundial'
+        default: 'all'
         type: choice
         options:
+          - all
           - mundial
           - champions
           - laliga
+  repository_dispatch:
+    types: [update-scores]
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    env:
-      COMPETITION: ${{ github.event.inputs.competition || 'mundial' }}
 
     steps:
       - uses: actions/checkout@v4
@@ -30,13 +31,40 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch datos de ${{ github.event.inputs.competition || 'mundial' }}
+      - name: Fetch mundial
+        if: >-
+          github.event_name != 'workflow_dispatch' ||
+          github.event.inputs.competition == 'all' ||
+          github.event.inputs.competition == 'mundial'
+        env:
+          COMPETITION: mundial
+          OUTPUT_FILE: matches-mundial.json
         run: node scripts/fetch.mjs
 
-      - name: Commit matches.json si hay cambios
+      - name: Fetch champions
+        if: >-
+          github.event_name != 'workflow_dispatch' ||
+          github.event.inputs.competition == 'all' ||
+          github.event.inputs.competition == 'champions'
+        env:
+          COMPETITION: champions
+          OUTPUT_FILE: matches-champions.json
+        run: node scripts/fetch.mjs
+
+      - name: Fetch laliga
+        if: >-
+          github.event_name != 'workflow_dispatch' ||
+          github.event.inputs.competition == 'all' ||
+          github.event.inputs.competition == 'laliga'
+        env:
+          COMPETITION: laliga
+          OUTPUT_FILE: matches-laliga.json
+        run: node scripts/fetch.mjs
+
+      - name: Commit y push
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add matches.json
-          git diff --cached --quiet || git commit -m "chore: actualizar matches.json [${{ env.COMPETITION }}] [skip ci]"
+          git add matches-mundial.json matches-champions.json matches-laliga.json
+          git diff --cached --quiet || git commit -m "chore: actualizar competiciones [skip ci]"
           git push
