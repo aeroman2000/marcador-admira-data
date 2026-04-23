@@ -1,5 +1,116 @@
 {
-  "updatedAt": "2026-04-23T00:00:00.000Z",
+  "updatedAt": "2026-04-23T17:48:53.133Z",
   "phase": "MUNDIAL 2026",
-  "matches": []
+  "matches": [
+    {
+      "home": "Mexico",
+      "away": "South Africa",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "mx",
+      "aCode": "za",
+      "group": "",
+      "date": "11 JUN · 19:00 h"
+    },
+    {
+      "home": "South Korea",
+      "away": "Czech Republic",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "kr",
+      "aCode": "cz",
+      "group": "",
+      "date": "12 JUN · 02:00 h"
+    },
+    {
+      "home": "Canada",
+      "away": "Bosnia-Herzegovina",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "ca",
+      "aCode": "ba",
+      "group": "",
+      "date": "12 JUN · 19:00 h"
+    },
+    {
+      "home": "USA",
+      "away": "Paraguay",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "us",
+      "aCode": "py",
+      "group": "",
+      "date": "13 JUN · 01:00 h"
+    },
+    {
+      "home": "Qatar",
+      "away": "Switzerland",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "qa",
+      "aCode": "ch",
+      "group": "",
+      "date": "13 JUN · 19:00 h"
+    },
+    {
+      "home": "Brazil",
+      "away": "Morocco",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "br",
+      "aCode": "ma",
+      "group": "",
+      "date": "13 JUN · 22:00 h"
+    },
+    {
+      "home": "Haiti",
+      "away": "Scotland",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "ha",
+      "aCode": "sc",
+      "group": "",
+      "date": "14 JUN · 01:00 h"
+    },
+    {
+      "home": "Australia",
+      "away": "Turkey",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "au",
+      "aCode": "tr",
+      "group": "",
+      "date": "14 JUN · 04:00 h"
+    },
+    {
+      "home": "Germany",
+      "away": "Curaçao",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "de",
+      "aCode": "cu",
+      "group": "",
+      "date": "14 JUN · 17:00 h"
+    },
+    {
+      "home": "Netherlands",
+      "away": "Japan",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "nl",
+      "aCode": "jp",
+      "group": "",
+      "date": "14 JUN · 20:00 h"
+    }
+  ]
 }
