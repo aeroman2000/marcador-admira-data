@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-23T19:50:03.278Z",
+  "updatedAt": "2026-04-23T19:53:06.274Z",
   "title": "LA LIGA",
   "phase": "LA LIGA",
   "matches": [
@@ -57,20 +57,19 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-      "minute": "60'"
+      "minute": "85'"
     },
     {
       "home": "Real Oviedo",
       "away": "Villarreal",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-      "group": "",
-      "date": "23 ABR · 19:30 h"
+      "minute": "19'"
     },
     {
       "home": "Real Betis",
