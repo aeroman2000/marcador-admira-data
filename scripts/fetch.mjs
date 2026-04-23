@@ -156,14 +156,28 @@ function entryFromEspn(espnEv) {
 // ─── Jornada activa (solo phaseType === 'matchday') ─────────────────────────
 
 function activeRound(enriched) {
-  const liveRounds = enriched.filter(e => e.state === 'live').map(e => parseInt(e.ev.intRound)).filter(Boolean);
+  const now = Date.now();
+
+  // 1. Ronda con partidos live (señal más fiable, viene de ESPN)
+  const liveRounds = enriched.filter(e => e.state === 'live').map(e => parseInt(e.ev.intRound)).filter(n => n > 0);
   if (liveRounds.length) return Math.max(...liveRounds);
 
-  const finishedRounds = enriched.filter(e => e.state === 'final').map(e => parseInt(e.ev.intRound)).filter(Boolean);
-  if (finishedRounds.length) return Math.max(...finishedRounds);
+  // 2. Ronda más reciente cuyo primer partido ya ha empezado (por startMs, no por state)
+  //    Evita depender de strStatus de TSDB que suele venir vacío fuera de la ventana ESPN
+  const startedRounds = new Set();
+  for (const e of enriched) {
+    const r = parseInt(e.ev.intRound);
+    if (r > 0 && e.startMs <= now) startedRounds.add(r);
+  }
+  if (startedRounds.size) return Math.max(...startedRounds);
 
-  const upcomingRounds = enriched.filter(e => e.state === 'next').map(e => parseInt(e.ev.intRound)).filter(Boolean);
-  if (upcomingRounds.length) return Math.min(...upcomingRounds);
+  // 3. Ronda más próxima todavía no iniciada
+  const upcomingRounds = new Set();
+  for (const e of enriched) {
+    const r = parseInt(e.ev.intRound);
+    if (r > 0 && e.startMs > now) upcomingRounds.add(r);
+  }
+  if (upcomingRounds.size) return Math.min(...upcomingRounds);
 
   return null;
 }
