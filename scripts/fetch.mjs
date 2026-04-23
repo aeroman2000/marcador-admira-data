@@ -62,9 +62,9 @@ function phaseFromRound(round) {
   if (['1','2','3'].includes(r.trim()) || r.includes('group')) return 'FASE DE GRUPOS';
   if (r.includes('32') || r.includes('round of 32'))   return 'DIECISEISAVOS DE FINAL';
   if (r.includes('16') || r.includes('round of 16'))   return 'OCTAVOS DE FINAL';
-  if (r.includes('quarter'))                            return 'CUARTOS DE FINAL';
+  if (r.includes('quarter') || r.includes('cuarto'))   return 'CUARTOS DE FINAL';
   if (r.includes('semi'))                               return 'SEMIFINALES';
-  if (r.includes('3rd') || r.includes('third'))         return 'TERCER PUESTO';
+  if (r.includes('3rd') || r.includes('third') || r.includes('tercer')) return 'TERCER PUESTO';
   if (r.includes('final'))                              return 'FINAL';
   return COMP.defaultPhase;
 }
@@ -89,7 +89,9 @@ async function fetchEspnWindow() {
   const from = new Date(now.getTime() - 864e5);
   const to   = new Date(now.getTime() + 6 * 864e5);
   const data = await get(`${ESPN}/scoreboard?limit=50&dates=${ymd(from)}-${ymd(to)}`);
-  return data.events ?? [];
+  // ESPN incluye el nombre de la fase actual en leagues[0].season.type.name
+  const espnPhaseName = data.leagues?.[0]?.season?.type?.name ?? '';
+  return { events: data.events ?? [], espnPhaseName };
 }
 
 // ─── Parsear evento ESPN ─────────────────────────────────────────────────────
@@ -125,7 +127,8 @@ function entryFromEspn(espnEv) {
   const startMs = rawDate ? new Date(rawDate).getTime() : 0;
   const dateStr = rawDate.slice(0, 10);
   const timeStr = rawDate.slice(11, 19);
-  const round   = comp?.series?.type ?? comp?.notes?.[0]?.headline ?? '';
+  // Headline primero (ej. "Semifinal - 1st Leg"), luego series.type (ej. "1st Leg")
+  const round   = comp?.notes?.[0]?.headline ?? comp?.series?.type ?? '';
 
   const home = comp?.competitors?.find(c => c.homeAway === 'home')?.team?.name ?? '';
   const away = comp?.competitors?.find(c => c.homeAway === 'away')?.team?.name ?? '';
@@ -140,7 +143,7 @@ function entryFromEspn(espnEv) {
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const [tsdbEvents, espnEvents] = await Promise.all([fetchCalendar(), fetchEspnWindow()]);
+  const [tsdbEvents, { events: espnEvents, espnPhaseName }] = await Promise.all([fetchCalendar(), fetchEspnWindow()]);
 
   // Índice ESPN por par de nombres normalizados
   const espnIndex = new Map();
@@ -228,7 +231,10 @@ async function main() {
   });
 
   const refRound = (live[0] ?? selected[0])?.ev.strRound;
-  const phase    = phaseFromRound(refRound);
+  // Prioridad: fase de TSDB/ESPN por partido → fase global del scoreboard ESPN → defaultPhase
+  const phase    = phaseFromRound(refRound) !== COMP.defaultPhase
+                   ? phaseFromRound(refRound)
+                   : (espnPhaseName ? phaseFromRound(espnPhaseName) : COMP.defaultPhase);
   const espnLive = live.filter(e => espnIndex.has(`${normalize(e.ev.strHomeTeam)}|${normalize(e.ev.strAwayTeam)}`)).length;
 
   const out = { updatedAt: new Date().toISOString(), title: COMP.title, phase, matches };
