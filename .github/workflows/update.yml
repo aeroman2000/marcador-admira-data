@@ -4,12 +4,23 @@ on:
   schedule:
     - cron: '*/15 * * * *'
   workflow_dispatch:
+    inputs:
+      competition:
+        description: 'Competición a mostrar'
+        required: false
+        default: 'mundial'
+        type: choice
+        options:
+          - mundial
+          - champions
 
 jobs:
   fetch:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+    env:
+      COMPETITION: ${{ github.event.inputs.competition || 'mundial' }}
 
     steps:
       - uses: actions/checkout@v4
@@ -18,7 +29,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch datos de TheSportsDB
+      - name: Fetch datos de ${{ github.event.inputs.competition || 'mundial' }}
         run: node scripts/fetch.mjs
 
       - name: Commit matches.json si hay cambios
@@ -26,5 +37,5 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add matches.json
-          git diff --cached --quiet || git commit -m "chore: actualizar matches.json [skip ci]"
+          git diff --cached --quiet || git commit -m "chore: actualizar matches.json [${{ env.COMPETITION }}] [skip ci]"
           git push

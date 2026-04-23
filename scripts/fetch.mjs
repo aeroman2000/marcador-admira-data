@@ -1,14 +1,38 @@
 // Proxy mixto: TheSportsDB (calendario) + ESPN (live scores) → matches.json
-// Sin autenticación ni secrets. Liga 4429 / fifa.world = FIFA World Cup 2026.
+// Competición seleccionable via env var COMPETITION=mundial|champions
 import { writeFileSync } from 'fs';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
-const OUT    = join(dirname(fileURLToPath(import.meta.url)), '..', 'matches.json');
-const TSDB   = 'https://www.thesportsdb.com/api/v1/json/3';
-const ESPN   = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world';
-const LEAGUE = 4429;
-const SEASON = 2026;
+const OUT  = join(dirname(fileURLToPath(import.meta.url)), '..', 'matches.json');
+const TSDB = 'https://www.thesportsdb.com/api/v1/json/3';
+
+// ─── Configuración por competición ──────────────────────────────────────────
+
+const COMPETITION = process.env.COMPETITION || 'mundial';
+
+const COMP = {
+  mundial: {
+    league:       4429,
+    season:       '2026',
+    espnSlug:     'fifa.world',
+    title:        'MUNDIAL 2026',
+    defaultPhase: 'MUNDIAL 2026',
+    useClubLogos: false,
+  },
+  champions: {
+    league:       4480,
+    season:       '2025-2026',
+    espnSlug:     'uefa.champions',
+    title:        'CHAMPIONS LEAGUE',
+    defaultPhase: 'CHAMPIONS LEAGUE',
+    useClubLogos: true,
+  },
+}[COMPETITION];
+
+if (!COMP) throw new Error(`Competición desconocida: "${COMPETITION}". Usa mundial|champions`);
+
+const ESPN = `https://site.api.espn.com/apis/site/v2/sports/soccer/${COMP.espnSlug}`;
 
 // ─── Helpers ────────────────────────────────────────────────────────────────
 
@@ -25,24 +49,24 @@ function formatDate(dateStr, timeStr) {
   return `${parseInt(d)} ${months[parseInt(m) - 1]} · ${time} h`;
 }
 
-// Normaliza nombres de equipo para comparar entre fuentes
 function normalize(name) {
-  return (name ?? '')
-    .toLowerCase()
-    .replace(/[^a-z]/g, '')
-    .replace(/^(the|united|south|north|republic|korea|ivory)/, v => v); // mantener prefijos relevantes
+  return (name ?? '').toLowerCase().replace(/[^a-z]/g, '');
 }
 
 function phaseFromRound(round) {
   const r = String(round ?? '').toLowerCase();
-  if (!r || ['1','2','3'].includes(r) || r.includes('group')) return 'FASE DE GRUPOS';
-  if (r.includes('32') || r.includes('round of 32'))  return 'DIECISEISAVOS DE FINAL';
-  if (r.includes('16') || r.includes('round of 16'))  return 'OCTAVOS DE FINAL';
-  if (r.includes('quarter'))                           return 'CUARTOS DE FINAL';
-  if (r.includes('semi'))                              return 'SEMIFINALES';
-  if (r.includes('3rd') || r.includes('third'))        return 'TERCER PUESTO';
-  if (r.includes('final'))                             return 'FINAL';
-  return 'MUNDIAL 2026';
+  if (!r) return COMP.defaultPhase;
+  // Champions: rondas previas tienen valor numérico alto (400, 300…)
+  if (/^[2-9]\d{2,}$/.test(r.trim()))                 return 'FASE PREVIA';
+  if (r.includes('league phase') || r.includes('liga')) return 'FASE DE LIGA';
+  if (['1','2','3'].includes(r.trim()) || r.includes('group')) return 'FASE DE GRUPOS';
+  if (r.includes('32') || r.includes('round of 32'))   return 'DIECISEISAVOS DE FINAL';
+  if (r.includes('16') || r.includes('round of 16'))   return 'OCTAVOS DE FINAL';
+  if (r.includes('quarter'))                            return 'CUARTOS DE FINAL';
+  if (r.includes('semi'))                               return 'SEMIFINALES';
+  if (r.includes('3rd') || r.includes('third'))         return 'TERCER PUESTO';
+  if (r.includes('final'))                              return 'FINAL';
+  return COMP.defaultPhase;
 }
 
 async function get(url) {
@@ -51,46 +75,48 @@ async function get(url) {
   return res.json();
 }
 
-// ─── TheSportsDB: calendario completo de la temporada ───────────────────────
+// ─── TheSportsDB: calendario completo ───────────────────────────────────────
 
 async function fetchCalendar() {
-  const data = await get(`${TSDB}/eventsseason.php?id=${LEAGUE}&s=${SEASON}`);
+  const data = await get(`${TSDB}/eventsseason.php?id=${COMP.league}&s=${COMP.season}`);
   return data.events ?? [];
 }
 
-// ─── ESPN: scoreboard de ventana deslizante (ayer → +6 días) ────────────────
+// ─── ESPN: ventana deslizante ayer → +6 días ────────────────────────────────
 
 async function fetchEspnWindow() {
-  const now      = new Date();
-  const from     = new Date(now.getTime() - 864e5);      // ayer
-  const to       = new Date(now.getTime() + 6 * 864e5);  // +6 días
-  const data     = await get(`${ESPN}/scoreboard?limit=50&dates=${ymd(from)}-${ymd(to)}`);
+  const now  = new Date();
+  const from = new Date(now.getTime() - 864e5);
+  const to   = new Date(now.getTime() + 6 * 864e5);
+  const data = await get(`${ESPN}/scoreboard?limit=50&dates=${ymd(from)}-${ymd(to)}`);
   return data.events ?? [];
 }
 
-// ─── Normalizar un evento ESPN al formato común ──────────────────────────────
+// ─── Parsear evento ESPN ─────────────────────────────────────────────────────
 
 function parseEspnEvent(ev) {
   const comp   = ev.competitions?.[0];
   const status = ev.status ?? {};
-  const state  = status.type?.state; // "pre" | "in" | "post"
+  const state  = status.type?.state;
 
   const home = comp?.competitors?.find(c => c.homeAway === 'home');
   const away = comp?.competitors?.find(c => c.homeAway === 'away');
 
   return {
-    homeNorm: normalize(home?.team?.name),
-    awayNorm: normalize(away?.team?.name),
+    homeNorm:  normalize(home?.team?.name),
+    awayNorm:  normalize(away?.team?.name),
     homeScore: parseInt(home?.score ?? '0') || 0,
     awayScore: parseInt(away?.score ?? '0') || 0,
+    homeLogo:  home?.team?.logo ?? '',
+    awayLogo:  away?.team?.logo ?? '',
     state:  state === 'in'   ? 'live'
           : state === 'post' ? 'final'
           : 'next',
-    minute: status.displayClock ?? '',   // ej. "45'"
+    minute: status.displayClock ?? '',
   };
 }
 
-// ─── Main ───────────────────────────────────────────────────────────────────
+// ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
   const [tsdbEvents, espnEvents] = await Promise.all([fetchCalendar(), fetchEspnWindow()]);
@@ -100,14 +126,12 @@ async function main() {
   // Índice ESPN por par de nombres normalizados
   const espnIndex = new Map();
   for (const ev of espnEvents) {
-    const parsed = parseEspnEvent(ev);
-    const key = `${parsed.homeNorm}|${parsed.awayNorm}`;
-    espnIndex.set(key, parsed);
+    const p = parseEspnEvent(ev);
+    espnIndex.set(`${p.homeNorm}|${p.awayNorm}`, p);
   }
 
   const now = Date.now();
 
-  // Enriquecer eventos TSDB con datos ESPN cuando estén disponibles
   const enriched = tsdbEvents.map(ev => {
     const homeNorm = normalize(ev.strHomeTeam);
     const awayNorm = normalize(ev.strAwayTeam);
@@ -116,26 +140,29 @@ async function main() {
     const startMs = new Date(`${ev.dateEvent}T${ev.strTime ?? '00:00:00'}Z`).getTime();
     const age     = now - startMs;
 
-    // ESPN tiene prioridad en estado y scores; TSDB es la fuente de fixtures
-    let state, hs, as, minute;
+    let state, hs, as, minute, hImg, aImg;
     if (espn) {
       state  = espn.state;
       hs     = espn.homeScore;
       as     = espn.awayScore;
       minute = espn.minute;
+      hImg   = espn.homeLogo;
+      aImg   = espn.awayLogo;
     } else {
-      // Fallback TSDB
       const s = (ev.strStatus ?? '').toLowerCase();
       state = ['in progress','ht','half time','extra time'].some(v => s.includes(v)) ? 'live'
             : ['match finished','finished','ft','aet','pen','after'].some(v => s.includes(v)) ? 'final'
             : (ev.intHomeScore !== null && ev.intAwayScore !== null) ? 'final'
             : 'next';
-      hs = ev.intHomeScore !== null ? Number(ev.intHomeScore) : 0;
-      as = ev.intAwayScore !== null ? Number(ev.intAwayScore) : 0;
+      hs     = ev.intHomeScore  !== null ? Number(ev.intHomeScore)  : 0;
+      as     = ev.intAwayScore  !== null ? Number(ev.intAwayScore)  : 0;
       minute = '';
+      // Para clubs sin ventana ESPN: usar badge de TheSportsDB
+      hImg   = COMP.useClubLogos ? (ev.strHomeTeamBadge ?? '') : '';
+      aImg   = COMP.useClubLogos ? (ev.strAwayTeamBadge ?? '') : '';
     }
 
-    return { ev, state, hs, as, minute, startMs, age };
+    return { ev, state, hs, as, minute, hImg, aImg, startMs, age };
   });
 
   // Prioridad: live > próximos (72 h) > finalizados (48 h)
@@ -147,7 +174,6 @@ async function main() {
 
   let selected = [...live, ...upcoming, ...finished].slice(0, 10);
 
-  // Fuera de temporada: mostrar los próximos 10 del calendario
   if (!selected.length) {
     selected = enriched
       .filter(e => e.state === 'next')
@@ -155,15 +181,17 @@ async function main() {
       .slice(0, 10);
   }
 
-  const matches = selected.map(({ ev, state, hs, as, minute }) => {
+  const matches = selected.map(({ ev, state, hs, as, minute, hImg, aImg }) => {
     const m = {
       home:  ev.strHomeTeam,
       away:  ev.strAwayTeam,
       state,
       hs,
       as,
-      hCode: isoFromName(ev.strHomeTeam),
-      aCode: isoFromName(ev.strAwayTeam),
+      hCode: COMP.useClubLogos ? '' : isoFromName(ev.strHomeTeam),
+      aCode: COMP.useClubLogos ? '' : isoFromName(ev.strAwayTeam),
+      hImg,
+      aImg,
     };
     if (state === 'live' && minute) m.minute = minute;
     if (state === 'next') {
@@ -175,15 +203,14 @@ async function main() {
 
   const refRound = (live[0] ?? selected[0])?.ev.strRound;
   const phase    = phaseFromRound(refRound);
+  const espnLive = live.filter(e => espnIndex.has(`${normalize(e.ev.strHomeTeam)}|${normalize(e.ev.strAwayTeam)}`)).length;
 
-  const espnLiveCount = live.filter(e => espnIndex.has(`${normalize(e.ev.strHomeTeam)}|${normalize(e.ev.strAwayTeam)}`)).length;
-
-  const out = { updatedAt: new Date().toISOString(), phase, matches };
+  const out = { updatedAt: new Date().toISOString(), title: COMP.title, phase, matches };
   writeFileSync(OUT, JSON.stringify(out, null, 2), 'utf8');
-  console.log(`✓ ${matches.length} partidos — ${live.length} live (${espnLiveCount} via ESPN), fase: ${phase}`);
+  console.log(`✓ [${COMPETITION}] ${matches.length} partidos — ${live.length} live (${espnLive} via ESPN), fase: ${phase}`);
 }
 
-// ISO-3166-1 alpha-2 para las selecciones del Mundial 2026
+// ISO-3166-1 alpha-2 para selecciones (solo usado en competition=mundial)
 function isoFromName(name) {
   const T = {
     'Algeria':'dz','Argentina':'ar','Australia':'au','Belgium':'be',
