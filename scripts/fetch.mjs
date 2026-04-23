@@ -28,9 +28,18 @@ const COMP = {
     defaultPhase: 'CHAMPIONS LEAGUE',
     useClubLogos: true,
   },
+  laliga: {
+    league:       4335,
+    season:       '2024-2025',
+    espnSlug:     'esp.1',
+    title:        'LA LIGA',
+    defaultPhase: 'LA LIGA',
+    useClubLogos: true,
+    phaseType:    'matchday',
+  },
 }[COMPETITION];
 
-if (!COMP) throw new Error(`Competición desconocida: "${COMPETITION}". Usa mundial|champions`);
+if (!COMP) throw new Error(`Competición desconocida: "${COMPETITION}". Usa mundial|champions|laliga`);
 
 const ESPN = `https://site.api.espn.com/apis/site/v2/sports/soccer/${COMP.espnSlug}`;
 
@@ -56,6 +65,10 @@ function normalize(name) {
 function phaseFromRound(round) {
   const r = String(round ?? '').toLowerCase();
   if (!r) return COMP.defaultPhase;
+  if (COMP.phaseType === 'matchday') {
+    const n = parseInt(r);
+    return n ? `JORNADA ${n}` : COMP.defaultPhase;
+  }
   // Champions: rondas previas tienen valor numérico alto (400, 300…)
   if (/^[2-9]\d{2,}$/.test(r.trim()))                 return 'FASE PREVIA';
   if (r.includes('league phase') || r.includes('liga')) return 'FASE DE LIGA';
