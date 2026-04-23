@@ -2,8 +2,8 @@ name: Actualizar matches.json
 
 on:
   schedule:
-    - cron: '*/15 * * * *'   # cada 15 min ≈ 96 req/día (dentro del free tier)
-  workflow_dispatch:           # disparo manual para pruebas
+    - cron: '*/15 * * * *'
+  workflow_dispatch:
 
 jobs:
   fetch:
