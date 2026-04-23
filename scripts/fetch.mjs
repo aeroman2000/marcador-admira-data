@@ -30,7 +30,7 @@ const COMP = {
   },
   laliga: {
     league:       4335,
-    season:       '2024-2025',
+    season:       '2025-2026',
     espnSlug:     'esp.1',
     title:        'LA LIGA',
     defaultPhase: 'LA LIGA',
@@ -67,7 +67,7 @@ function phaseFromRound(round) {
   if (!r) return COMP.defaultPhase;
   if (COMP.phaseType === 'matchday') {
     const n = parseInt(r);
-    return n ? `JORNADA ${n}` : COMP.defaultPhase;
+    return (n >= 1 && n <= 50) ? `JORNADA ${n}` : COMP.defaultPhase;
   }
   // Champions: rondas previas tienen valor numérico alto (400, 300…)
   if (/^[2-9]\d{2,}$/.test(r.trim()))                 return 'FASE PREVIA';
