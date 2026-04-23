@@ -1,4 +1,4 @@
-name: Actualizar matches.json
+name: Actualizar matches.json (5 min)
 
 on:
   schedule:
