@@ -18,9 +18,7 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Fetch datos de API-Football
-        env:
-          APIFOOTBALL_KEY: ${{ secrets.APIFOOTBALL_KEY }}
+      - name: Fetch datos de TheSportsDB
         run: node scripts/fetch.mjs
 
       - name: Commit matches.json si hay cambios
