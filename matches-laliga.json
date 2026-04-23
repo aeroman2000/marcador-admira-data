@@ -1,0 +1,126 @@
+{
+  "updatedAt": "2026-04-23T23:19:35.534Z",
+  "title": "LA LIGA",
+  "phase": "LA LIGA",
+  "matches": [
+    {
+      "home": "Elche",
+      "away": "Atlético Madrid",
+      "state": "final",
+      "hs": 3,
+      "as": 2,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
+    },
+    {
+      "home": "Real Sociedad",
+      "away": "Getafe",
+      "state": "final",
+      "hs": 0,
+      "as": 1,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png"
+    },
+    {
+      "home": "Barcelona",
+      "away": "Celta Vigo",
+      "state": "final",
+      "hs": 1,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png"
+    },
+    {
+      "home": "Levante",
+      "away": "Sevilla",
+      "state": "final",
+      "hs": 2,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png"
+    },
+    {
+      "home": "Rayo Vallecano",
+      "away": "Espanyol",
+      "state": "final",
+      "hs": 1,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png"
+    },
+    {
+      "home": "Real Oviedo",
+      "away": "Villarreal",
+      "state": "live",
+      "hs": 0,
+      "as": 1,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+      "minute": "45'+1'"
+    },
+    {
+      "home": "Real Betis",
+      "away": "Real Madrid",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+      "group": "",
+      "date": "24 ABR · 19:00 h"
+    },
+    {
+      "home": "Alavés",
+      "away": "Mallorca",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
+      "group": "",
+      "date": "25 ABR · 12:00 h"
+    },
+    {
+      "home": "Getafe",
+      "away": "Barcelona",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+      "group": "",
+      "date": "25 ABR · 14:15 h"
+    },
+    {
+      "home": "Valencia",
+      "away": "Girona",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
+      "group": "",
+      "date": "25 ABR · 16:30 h"
+    }
+  ]
+}
