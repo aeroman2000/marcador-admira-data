@@ -116,22 +116,45 @@ function parseEspnEvent(ev) {
   };
 }
 
+// ─── Construir entrada normalizada desde un evento ESPN (cuando TSDB no tiene datos) ──
+
+function entryFromEspn(espnEv) {
+  const comp    = espnEv.competitions?.[0];
+  const p       = parseEspnEvent(espnEv);
+  const rawDate = espnEv.date ?? '';                         // ISO 8601 UTC
+  const startMs = rawDate ? new Date(rawDate).getTime() : 0;
+  const dateStr = rawDate.slice(0, 10);
+  const timeStr = rawDate.slice(11, 19);
+  const round   = comp?.series?.type ?? comp?.notes?.[0]?.headline ?? '';
+
+  const home = comp?.competitors?.find(c => c.homeAway === 'home')?.team?.name ?? '';
+  const away = comp?.competitors?.find(c => c.homeAway === 'away')?.team?.name ?? '';
+
+  const ev = { strHomeTeam: home, strAwayTeam: away, strTime: timeStr, dateEvent: dateStr, strRound: round };
+
+  return { ev, state: p.state, hs: p.homeScore, as: p.awayScore,
+           minute: p.minute, hImg: p.homeLogo, aImg: p.awayLogo,
+           startMs, age: Date.now() - startMs };
+}
+
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
   const [tsdbEvents, espnEvents] = await Promise.all([fetchCalendar(), fetchEspnWindow()]);
 
-  if (!tsdbEvents.length) throw new Error('TheSportsDB devolvió 0 eventos');
-
   // Índice ESPN por par de nombres normalizados
   const espnIndex = new Map();
+  const espnRaw   = new Map();   // nombre normalizado → evento ESPN raw (para fallback)
   for (const ev of espnEvents) {
-    const p = parseEspnEvent(ev);
-    espnIndex.set(`${p.homeNorm}|${p.awayNorm}`, p);
+    const p   = parseEspnEvent(ev);
+    const key = `${p.homeNorm}|${p.awayNorm}`;
+    espnIndex.set(key, p);
+    espnRaw.set(key, ev);
   }
 
   const now = Date.now();
 
+  // Enriquecer TSDB con ESPN
   const enriched = tsdbEvents.map(ev => {
     const homeNorm = normalize(ev.strHomeTeam);
     const awayNorm = normalize(ev.strAwayTeam);
@@ -142,26 +165,20 @@ async function main() {
 
     let state, hs, as, minute, hImg, aImg;
     if (espn) {
-      state  = espn.state;
-      hs     = espn.homeScore;
-      as     = espn.awayScore;
-      minute = espn.minute;
-      hImg   = espn.homeLogo;
-      aImg   = espn.awayLogo;
+      state = espn.state; hs = espn.homeScore; as = espn.awayScore;
+      minute = espn.minute; hImg = espn.homeLogo; aImg = espn.awayLogo;
     } else {
       const s = (ev.strStatus ?? '').toLowerCase();
       state = ['in progress','ht','half time','extra time'].some(v => s.includes(v)) ? 'live'
             : ['match finished','finished','ft','aet','pen','after'].some(v => s.includes(v)) ? 'final'
             : (ev.intHomeScore !== null && ev.intAwayScore !== null) ? 'final'
             : 'next';
-      hs     = ev.intHomeScore  !== null ? Number(ev.intHomeScore)  : 0;
-      as     = ev.intAwayScore  !== null ? Number(ev.intAwayScore)  : 0;
+      hs = ev.intHomeScore !== null ? Number(ev.intHomeScore) : 0;
+      as = ev.intAwayScore !== null ? Number(ev.intAwayScore) : 0;
       minute = '';
-      // Para clubs sin ventana ESPN: usar badge de TheSportsDB
-      hImg   = COMP.useClubLogos ? (ev.strHomeTeamBadge ?? '') : '';
-      aImg   = COMP.useClubLogos ? (ev.strAwayTeamBadge ?? '') : '';
+      hImg = COMP.useClubLogos ? (ev.strHomeTeamBadge ?? '') : '';
+      aImg = COMP.useClubLogos ? (ev.strAwayTeamBadge ?? '') : '';
     }
-
     return { ev, state, hs, as, minute, hImg, aImg, startMs, age };
   });
 
@@ -175,8 +192,17 @@ async function main() {
   let selected = [...live, ...upcoming, ...finished].slice(0, 10);
 
   if (!selected.length) {
-    selected = enriched
-      .filter(e => e.state === 'next')
+    selected = enriched.filter(e => e.state === 'next')
+                       .sort((a, b) => a.startMs - b.startMs)
+                       .slice(0, 10);
+  }
+
+  // Si TSDB no tiene partidos relevantes, usar ESPN directamente
+  // (ocurre en competiciones donde TSDB tiene solo rondas pasadas)
+  if (!selected.length && espnEvents.length) {
+    console.warn('TSDB sin partidos relevantes — usando ESPN como fuente directa');
+    selected = espnEvents
+      .map(entryFromEspn)
       .sort((a, b) => a.startMs - b.startMs)
       .slice(0, 10);
   }
@@ -195,8 +221,8 @@ async function main() {
     };
     if (state === 'live' && minute) m.minute = minute;
     if (state === 'next') {
-      m.group = ev.strRound ? `JORNADA ${ev.strRound}` : '';
-      m.date  = formatDate(ev.dateEvent, ev.strTime);
+      m.group = ev.strRound || '';
+      m.date  = ev.dateEvent ? formatDate(ev.dateEvent, ev.strTime) : '';
     }
     return m;
   });
