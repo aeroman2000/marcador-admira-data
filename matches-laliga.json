@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-24T19:20:28.510Z",
+  "updatedAt": "2026-04-24T19:25:22.123Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -8,12 +8,12 @@
       "away": "Real Madrid",
       "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "minute": "9'",
+      "minute": "17'",
       "round": 32
     },
     {
