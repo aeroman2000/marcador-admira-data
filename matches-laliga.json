@@ -1,19 +1,18 @@
 {
-  "updatedAt": "2026-04-24T21:05:23.840Z",
+  "updatedAt": "2026-04-24T21:10:27.983Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
     {
       "home": "Real Betis",
       "away": "Real Madrid",
-      "state": "live",
+      "state": "final",
       "hs": 1,
       "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "minute": "90'+4'",
       "round": 32
     },
     {
