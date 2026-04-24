@@ -29,13 +29,14 @@ const COMP = {
     useClubLogos: true,
   },
   laliga: {
-    league:       4335,
-    season:       '2025-2026',
-    espnSlug:     'esp.1',
-    title:        'LA LIGA',
-    defaultPhase: 'LA LIGA',
-    useClubLogos: true,
-    phaseType:    'matchday',
+    league:         4335,
+    season:         '2025-2026',
+    espnSlug:       'esp.1',
+    title:          'LA LIGA',
+    defaultPhase:   'LA LIGA',
+    useClubLogos:   true,
+    phaseType:      'matchday',
+    tsdbLeagueName: 'Spanish La Liga',
   },
 }[COMPETITION];
 
@@ -153,6 +154,37 @@ function entryFromEspn(espnEv) {
            startMs, age: Date.now() - startMs };
 }
 
+// ─── Jornada actual desde TSDB eventsday (ventana ±4 días) ──────────────────
+// Resuelve el caso en que eventsseason devuelve datos incompletos (ej. La Liga).
+
+// Paso 1: detecta el número de la jornada activa consultando eventsday ±3 días
+async function fetchCurrentMatchday() {
+  const now = Date.now();
+  const offsets = [0, -1, 1, -2, 2, -3, 3];
+  const dates = offsets.map(n => {
+    const d = new Date(now + n * 864e5);
+    return { str: `${d.getUTCFullYear()}-${pad(d.getUTCMonth()+1)}-${pad(d.getUTCDate())}`, ms: new Date(d.getUTCFullYear(), d.getUTCMonth(), d.getUTCDate()).getTime() };
+  });
+  const results = await Promise.allSettled(
+    dates.map(({ str }) => get(`${TSDB}/eventsday.php?d=${str}&l=${encodeURIComponent(COMP.tsdbLeagueName)}`))
+  );
+  const found = [];
+  for (let i = 0; i < results.length; i++) {
+    if (results[i].status !== 'fulfilled') continue;
+    const round = parseInt(results[i].value.events?.[0]?.intRound);
+    if (round > 0) found.push({ round, dayMs: dates[i].ms });
+  }
+  if (!found.length) return null;
+  const past = found.filter(f => f.dayMs <= now).sort((a,b) => b.dayMs - a.dayMs);
+  return (past.length ? past[0] : found.sort((a,b) => a.dayMs - b.dayMs)[0]).round;
+}
+
+// Paso 2: obtiene los 10 partidos exactos de la jornada via eventsround
+async function fetchRound(round) {
+  const data = await get(`${TSDB}/eventsround.php?id=${COMP.league}&r=${round}&s=${COMP.season}`);
+  return data.events ?? [];
+}
+
 // ─── Jornada activa (solo phaseType === 'matchday') ─────────────────────────
 
 function activeRound(enriched) {
@@ -185,7 +217,30 @@ function activeRound(enriched) {
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
-  const [tsdbEvents, { events: espnEvents, espnPhaseName }] = await Promise.all([fetchCalendar(), fetchEspnWindow()]);
+  let tsdbEvents, espnEvents, espnPhaseName, currentMatchday;
+
+  if (COMP.phaseType === 'matchday') {
+    // Paso 1 (paralelo): ESPN live scores + número de jornada desde eventsday
+    let roundNum;
+    [{ events: espnEvents, espnPhaseName }, roundNum] = await Promise.all([
+      fetchEspnWindow(),
+      fetchCurrentMatchday(),
+    ]);
+    currentMatchday = roundNum;
+    // Paso 2 (secuencial): los 10 partidos exactos de la jornada desde eventsround
+    tsdbEvents = roundNum ? await fetchRound(roundNum) : [];
+    // Fallback: si eventsround no devuelve datos, usar ESPN directo
+    if (!tsdbEvents.length && espnEvents.length) {
+      console.warn('eventsround vacío — usando ESPN como fuente directa');
+      tsdbEvents = null; // señal para usar espnEvents en selected
+    }
+  } else {
+    currentMatchday = null;
+    [tsdbEvents, { events: espnEvents, espnPhaseName }] = await Promise.all([
+      fetchCalendar(),
+      fetchEspnWindow(),
+    ]);
+  }
 
   // Índice ESPN por par de nombres normalizados
   const espnIndex = new Map();
@@ -199,8 +254,8 @@ async function main() {
 
   const now = Date.now();
 
-  // Enriquecer TSDB con ESPN
-  const enriched = tsdbEvents.map(ev => {
+  // Enriquecer TSDB con ESPN (tsdbEvents puede ser null si eventsround falló)
+  const enriched = (tsdbEvents ?? []).map(ev => {
     const homeNorm = normalize(ev.strHomeTeam);
     const awayNorm = normalize(ev.strAwayTeam);
     const espn     = espnIndex.get(`${homeNorm}|${awayNorm}`);
@@ -230,11 +285,13 @@ async function main() {
   let selected;
 
   if (COMP.phaseType === 'matchday') {
-    // Selección por jornada activa: todos los partidos de la ronda actual
-    const round = activeRound(enriched);
-    selected = round
-      ? enriched.filter(e => parseInt(e.ev.intRound) === round).sort((a, b) => a.startMs - b.startMs)
-      : enriched.sort((a, b) => a.startMs - b.startMs).slice(0, 10);
+    if (enriched.length) {
+      // eventsround devolvió datos: 10 partidos enriquecidos con ESPN live scores
+      selected = enriched.sort((a, b) => a.startMs - b.startMs);
+    } else {
+      // Fallback: ESPN directo (sin intRound, round viene de currentMatchday)
+      selected = espnEvents.map(entryFromEspn).sort((a, b) => a.startMs - b.startMs);
+    }
   } else {
     // Prioridad clásica: live > próximos (72 h) > finalizados (48 h)
     const live     = enriched.filter(e => e.state === 'live');
@@ -272,7 +329,7 @@ async function main() {
       m.group = COMP.phaseType === 'matchday' ? '' : (ev.strRound || '');
       m.date  = ev.dateEvent ? formatDate(ev.dateEvent, ev.strTime) : '';
     }
-    if (COMP.phaseType === 'matchday') m.round = parseInt(ev.intRound) || 0;
+    if (COMP.phaseType === 'matchday') m.round = parseInt(ev.intRound) || currentMatchday || 0;
     return m;
   });
 
@@ -281,8 +338,8 @@ async function main() {
 
   // Fase: para jornadas usar intRound; para otros, lógica existente
   let phase;
-  if (COMP.phaseType === 'matchday' && selected.length) {
-    phase = `JORNADA ${parseInt(selected[0].ev.intRound)}`;
+  if (COMP.phaseType === 'matchday' && (currentMatchday || selected.length)) {
+    phase = `JORNADA ${currentMatchday || parseInt(selected[0].ev.intRound)}`;
   } else {
     const refRound = (selected.find(e => e.state === 'live') ?? selected[0])?.ev.intRound
                   ?? (selected.find(e => e.state === 'live') ?? selected[0])?.ev.strRound;
