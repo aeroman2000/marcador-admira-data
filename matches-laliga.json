@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T20:00:57.760Z",
+  "updatedAt": "2026-04-25T20:05:33.702Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -54,7 +54,7 @@
     {
       "home": "Atlético Madrid",
       "away": "Athletic Bilbao",
-      "state": "live",
+      "state": "final",
       "hs": 0,
       "as": 1,
       "hCode": "",
