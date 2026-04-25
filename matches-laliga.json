@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T16:40:32.670Z",
+  "updatedAt": "2026-04-25T16:45:30.940Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -42,15 +42,14 @@
     {
       "home": "Valencia",
       "away": "Girona",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
-      "group": "",
-      "date": "25 ABR · 16:30 h",
+      "minute": "7'",
       "round": 32
     },
     {
