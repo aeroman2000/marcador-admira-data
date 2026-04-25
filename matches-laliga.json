@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T12:01:56.203Z",
+  "updatedAt": "2026-04-25T12:05:29.891Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -18,15 +18,13 @@
     {
       "home": "Deportivo Alavés",
       "away": "Mallorca",
-      "state": "next",
+      "state": "final",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://r2.thesportsdb.com/images/media/team/badge/mfn99h1734673842.png",
       "aImg": "https://r2.thesportsdb.com/images/media/team/badge/ssptsx1473503730.png",
-      "group": "",
-      "date": "25 ABR · 12:00 h",
       "round": 32
     },
     {
