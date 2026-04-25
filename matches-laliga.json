@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T13:05:35.162Z",
+  "updatedAt": "2026-04-25T13:10:31.464Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -18,7 +18,7 @@
     {
       "home": "Deportivo Alavés",
       "away": "Mallorca",
-      "state": "live",
+      "state": "final",
       "hs": 0,
       "as": 1,
       "hCode": "",
