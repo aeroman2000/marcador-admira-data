@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T16:10:26.080Z",
+  "updatedAt": "2026-04-25T16:15:28.160Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -30,14 +30,13 @@
     {
       "home": "Getafe",
       "away": "Barcelona",
-      "state": "live",
+      "state": "final",
       "hs": 0,
       "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-      "minute": "90'+1'",
       "round": 32
     },
     {
