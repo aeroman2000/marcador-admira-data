@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T19:00:57.342Z",
+  "updatedAt": "2026-04-25T19:05:25.959Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -54,15 +54,13 @@
     {
       "home": "Atlético Madrid",
       "away": "Athletic Bilbao",
-      "state": "next",
+      "state": "final",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png",
       "aImg": "https://r2.thesportsdb.com/images/media/team/badge/68w7fe1639408210.png",
-      "group": "",
-      "date": "25 ABR · 19:00 h",
       "round": 32
     },
     {
