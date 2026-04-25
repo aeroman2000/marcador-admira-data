@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T19:20:27.737Z",
+  "updatedAt": "2026-04-25T19:25:22.442Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -56,7 +56,7 @@
       "away": "Athletic Bilbao",
       "state": "final",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png",
