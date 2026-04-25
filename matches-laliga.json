@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-25T15:50:31.570Z",
+  "updatedAt": "2026-04-25T15:52:27.680Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -32,12 +32,12 @@
       "away": "Barcelona",
       "state": "live",
       "hs": 0,
-      "as": 1,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-      "minute": "70'",
+      "minute": "76'",
       "round": 32
     },
     {
