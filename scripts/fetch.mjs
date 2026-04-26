@@ -54,7 +54,9 @@ function ymd(date) {
 
 function formatDate(dateStr, timeStr) {
   const months = ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
-  const dt = new Date(`${dateStr}T${timeStr ?? '00:00:00'}Z`);
+  // Quitar zona horaria embebida (ej. "19:00Z" → "19:00:00") antes de añadir Z al construir el ISO
+  const cleanTime = (timeStr ?? '00:00:00').replace(/[Z+\-].*$/, '').padEnd(8, ':00');
+  const dt = new Date(`${dateStr}T${cleanTime}Z`);
   const parts = new Intl.DateTimeFormat('es-ES', {
     timeZone: 'Europe/Madrid',
     day: 'numeric', month: 'numeric',
