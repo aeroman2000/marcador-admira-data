@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T19:35:14.516Z",
+  "updatedAt": "2026-04-26T19:40:20.507Z",
   "title": "LA LIGA",
   "phase": "JORNADA NaN",
   "matches": [
@@ -91,13 +91,13 @@
       "home": "Villarreal",
       "away": "Celta Vigo",
       "state": "live",
-      "hs": 1,
+      "hs": 2,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-      "minute": "28'",
+      "minute": "33'",
       "round": 0
     },
     {
