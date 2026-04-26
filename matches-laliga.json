@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T14:35:26.014Z",
+  "updatedAt": "2026-04-26T14:40:31.614Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -80,12 +80,12 @@
       "away": "Elche",
       "state": "live",
       "hs": 0,
-      "as": 1,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "minute": "15'",
+      "minute": "16'",
       "round": 32
     },
     {
