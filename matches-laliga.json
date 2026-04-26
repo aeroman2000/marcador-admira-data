@@ -1,31 +1,19 @@
 {
-  "updatedAt": "2026-04-26T16:30:29.818Z",
+  "updatedAt": "2026-04-26T16:35:15.542Z",
   "title": "LA LIGA",
-  "phase": "JORNADA 32",
+  "phase": "JORNADA NaN",
   "matches": [
     {
-      "home": "Real Betis",
-      "away": "Real Madrid",
-      "state": "final",
-      "hs": 1,
-      "as": 1,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/2oqulv1663245386.png",
-      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
-      "round": 32
-    },
-    {
-      "home": "Deportivo Alavés",
+      "home": "Alavés",
       "away": "Mallorca",
       "state": "final",
       "hs": 2,
       "as": 1,
       "hCode": "",
       "aCode": "",
-      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/mfn99h1734673842.png",
-      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/ssptsx1473503730.png",
-      "round": 32
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
+      "round": 0
     },
     {
       "home": "Getafe",
@@ -37,7 +25,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-      "round": 32
+      "round": 0
     },
     {
       "home": "Valencia",
@@ -49,19 +37,19 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
-      "round": 32
+      "round": 0
     },
     {
       "home": "Atlético Madrid",
-      "away": "Athletic Bilbao",
+      "away": "Athletic Club",
       "state": "final",
       "hs": 3,
       "as": 2,
       "hCode": "",
       "aCode": "",
-      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png",
-      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/68w7fe1639408210.png",
-      "round": 32
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+      "round": 0
     },
     {
       "home": "Rayo Vallecano",
@@ -73,7 +61,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "round": 32
+      "round": 0
     },
     {
       "home": "Real Oviedo",
@@ -85,7 +73,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "round": 32
+      "round": 0
     },
     {
       "home": "Osasuna",
@@ -99,7 +87,7 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
       "group": "",
       "date": "26 ABR · 18:30 h",
-      "round": 32
+      "round": 0
     },
     {
       "home": "Villarreal",
@@ -113,7 +101,7 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
       "group": "",
       "date": "26 ABR · 21:00 h",
-      "round": 32
+      "round": 0
     },
     {
       "home": "Espanyol",
@@ -127,7 +115,77 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
       "group": "",
       "date": "27 ABR · 21:00 h",
-      "round": 32
+      "round": 0
+    },
+    {
+      "home": "Girona",
+      "away": "Mallorca",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
+      "group": "",
+      "date": "1 MAY · 21:00 h",
+      "round": 0
+    },
+    {
+      "home": "Villarreal",
+      "away": "Levante",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+      "group": "",
+      "date": "2 MAY · 14:00 h",
+      "round": 0
+    },
+    {
+      "home": "Valencia",
+      "away": "Atlético Madrid",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+      "group": "",
+      "date": "2 MAY · 16:15 h",
+      "round": 0
+    },
+    {
+      "home": "Alavés",
+      "away": "Athletic Club",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+      "group": "",
+      "date": "2 MAY · 18:30 h",
+      "round": 0
+    },
+    {
+      "home": "Osasuna",
+      "away": "Barcelona",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+      "group": "",
+      "date": "2 MAY · 21:00 h",
+      "round": 0
     }
   ]
 }
