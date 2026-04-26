@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T14:20:29.335Z",
+  "updatedAt": "2026-04-26T14:25:28.827Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -78,15 +78,14 @@
     {
       "home": "Real Oviedo",
       "away": "Elche",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "group": "",
-      "date": "26 ABR · 16:15 h",
+      "minute": "2'",
       "round": 32
     },
     {
