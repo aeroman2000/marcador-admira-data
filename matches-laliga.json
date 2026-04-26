@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T18:10:18.833Z",
+  "updatedAt": "2026-04-26T18:15:19.950Z",
   "title": "LA LIGA",
   "phase": "JORNADA NaN",
   "matches": [
@@ -79,13 +79,13 @@
       "home": "Osasuna",
       "away": "Sevilla",
       "state": "live",
-      "hs": 0,
+      "hs": 1,
       "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-      "minute": "75'",
+      "minute": "80'",
       "round": 0
     },
     {
