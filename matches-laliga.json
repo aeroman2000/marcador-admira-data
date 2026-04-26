@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T13:30:44.999Z",
+  "updatedAt": "2026-04-26T13:35:26.794Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -68,12 +68,12 @@
       "away": "Real Sociedad",
       "state": "live",
       "hs": 1,
-      "as": 1,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "minute": "61'",
+      "minute": "66'",
       "round": 32
     },
     {
