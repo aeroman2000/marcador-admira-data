@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T10:15:18.245Z",
+  "updatedAt": "2026-04-26T10:22:40.600Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -14,7 +14,7 @@
       "hImg": "",
       "aImg": "",
       "group": "",
-      "date": "11 JUN · 19:00 h"
+      "date": "11 JUN · 21:00 h"
     },
     {
       "home": "South Korea",
@@ -27,7 +27,7 @@
       "hImg": "",
       "aImg": "",
       "group": "",
-      "date": "12 JUN · 02:00 h"
+      "date": "12 JUN · 04:00 h"
     },
     {
       "home": "Canada",
@@ -40,7 +40,7 @@
       "hImg": "",
       "aImg": "",
       "group": "",
-      "date": "12 JUN · 19:00 h"
+      "date": "12 JUN · 21:00 h"
     },
     {
       "home": "USA",
@@ -53,7 +53,7 @@
       "hImg": "",
       "aImg": "",
       "group": "",
-      "date": "13 JUN · 01:00 h"
+      "date": "13 JUN · 03:00 h"
     },
     {
       "home": "Qatar",
@@ -66,7 +66,7 @@
       "hImg": "",
       "aImg": "",
       "group": "",
-      "date": "13 JUN · 19:00 h"
+      "date": "13 JUN · 21:00 h"
     },
     {
       "home": "Brazil",
@@ -79,7 +79,7 @@
       "hImg": "",
       "aImg": "",
       "group": "",
-      "date": "13 JUN · 22:00 h"
+      "date": "14 JUN · 00:00 h"
     },
     {
       "home": "Haiti",
@@ -92,7 +92,7 @@
       "hImg": "",
       "aImg": "",
       "group": "",
-      "date": "14 JUN · 01:00 h"
+      "date": "14 JUN · 03:00 h"
     },
     {
       "home": "Australia",
@@ -105,7 +105,7 @@
       "hImg": "",
       "aImg": "",
       "group": "",
-      "date": "14 JUN · 04:00 h"
+      "date": "14 JUN · 06:00 h"
     },
     {
       "home": "Germany",
@@ -118,7 +118,7 @@
       "hImg": "",
       "aImg": "",
       "group": "",
-      "date": "14 JUN · 17:00 h"
+      "date": "14 JUN · 19:00 h"
     },
     {
       "home": "Netherlands",
@@ -131,7 +131,7 @@
       "hImg": "",
       "aImg": "",
       "group": "",
-      "date": "14 JUN · 20:00 h"
+      "date": "14 JUN · 22:00 h"
     }
   ]
 }

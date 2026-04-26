@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T10:15:18.483Z",
+  "updatedAt": "2026-04-26T10:22:40.879Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "SEMIFINALES",
   "matches": [
@@ -14,7 +14,7 @@
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
       "group": "1st Leg",
-      "date": "28 ABR · 19:00 h"
+      "date": "28 ABR · 21:00 h"
     },
     {
       "home": "Atlético Madrid",
@@ -27,7 +27,7 @@
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
       "group": "1st Leg",
-      "date": "29 ABR · 19:00 h"
+      "date": "29 ABR · 21:00 h"
     }
   ]
 }
