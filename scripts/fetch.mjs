@@ -54,9 +54,13 @@ function ymd(date) {
 
 function formatDate(dateStr, timeStr) {
   const months = ['ENE','FEB','MAR','ABR','MAY','JUN','JUL','AGO','SEP','OCT','NOV','DIC'];
-  const [, m, d] = dateStr.split('-');
-  const time = (timeStr ?? '00:00:00').slice(0, 5);
-  return `${parseInt(d)} ${months[parseInt(m) - 1]} · ${time} h`;
+  const dt = new Date(`${dateStr}T${timeStr ?? '00:00:00'}Z`);
+  const parts = new Intl.DateTimeFormat('es-ES', {
+    timeZone: 'Europe/Madrid',
+    day: 'numeric', month: 'numeric',
+    hour: '2-digit', minute: '2-digit', hour12: false,
+  }).formatToParts(dt).reduce((acc, { type, value }) => ({ ...acc, [type]: value }), {});
+  return `${parseInt(parts.day)} ${months[parseInt(parts.month) - 1]} · ${parts.hour}:${parts.minute} h`;
 }
 
 function normalize(name) {
