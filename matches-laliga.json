@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T12:05:25.074Z",
+  "updatedAt": "2026-04-26T12:10:33.273Z",
   "title": "LA LIGA",
   "phase": "JORNADA 32",
   "matches": [
@@ -66,15 +66,14 @@
     {
       "home": "Rayo Vallecano",
       "away": "Real Sociedad",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "group": "",
-      "date": "26 ABR · 14:00 h",
+      "minute": "2'",
       "round": 32
     },
     {
