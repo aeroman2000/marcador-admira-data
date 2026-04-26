@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-26T18:00:41.881Z",
+  "updatedAt": "2026-04-26T18:05:22.804Z",
   "title": "LA LIGA",
   "phase": "JORNADA NaN",
   "matches": [
@@ -80,12 +80,12 @@
       "away": "Sevilla",
       "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-      "minute": "66'",
+      "minute": "72'",
       "round": 0
     },
     {
