@@ -220,6 +220,36 @@ function activeRound(enriched) {
   return null;
 }
 
+// ─── Enriquecer eventos TSDB con datos ESPN ──────────────────────────────────
+
+function enrichRound(tsdbEvs, espnIdx) {
+  const now = Date.now();
+  return tsdbEvs.map(ev => {
+    const homeNorm = normalize(ev.strHomeTeam);
+    const awayNorm = normalize(ev.strAwayTeam);
+    const espn     = espnIdx.get(`${homeNorm}|${awayNorm}`);
+    const startMs  = new Date(`${ev.dateEvent}T${ev.strTime ?? '00:00:00'}Z`).getTime();
+    const age      = now - startMs;
+    let state, hs, as, minute, hImg, aImg;
+    if (espn) {
+      state = espn.state; hs = espn.homeScore; as = espn.awayScore;
+      minute = espn.minute; hImg = espn.homeLogo; aImg = espn.awayLogo;
+    } else {
+      const s = (ev.strStatus ?? '').toLowerCase();
+      state = ['in progress','ht','half time','extra time'].some(v => s.includes(v)) ? 'live'
+            : ['match finished','finished','ft','aet','pen','after'].some(v => s.includes(v)) ? 'final'
+            : (ev.intHomeScore !== null && ev.intAwayScore !== null) ? 'final'
+            : 'next';
+      hs = ev.intHomeScore !== null ? Number(ev.intHomeScore) : 0;
+      as = ev.intAwayScore !== null ? Number(ev.intAwayScore) : 0;
+      minute = '';
+      hImg = COMP.useClubLogos ? (ev.strHomeTeamBadge ?? '') : '';
+      aImg = COMP.useClubLogos ? (ev.strAwayTeamBadge ?? '') : '';
+    }
+    return { ev, state, hs, as, minute, hImg, aImg, startMs, age };
+  });
+}
+
 // ─── Main ────────────────────────────────────────────────────────────────────
 
 async function main() {
@@ -258,35 +288,22 @@ async function main() {
     espnRaw.set(key, ev);
   }
 
-  const now = Date.now();
-
   // Enriquecer TSDB con ESPN (tsdbEvents puede ser null si eventsround falló)
-  const enriched = (tsdbEvents ?? []).map(ev => {
-    const homeNorm = normalize(ev.strHomeTeam);
-    const awayNorm = normalize(ev.strAwayTeam);
-    const espn     = espnIndex.get(`${homeNorm}|${awayNorm}`);
+  let enriched = enrichRound(tsdbEvents ?? [], espnIndex);
 
-    const startMs = new Date(`${ev.dateEvent}T${ev.strTime ?? '00:00:00'}Z`).getTime();
-    const age     = now - startMs;
-
-    let state, hs, as, minute, hImg, aImg;
-    if (espn) {
-      state = espn.state; hs = espn.homeScore; as = espn.awayScore;
-      minute = espn.minute; hImg = espn.homeLogo; aImg = espn.awayLogo;
-    } else {
-      const s = (ev.strStatus ?? '').toLowerCase();
-      state = ['in progress','ht','half time','extra time'].some(v => s.includes(v)) ? 'live'
-            : ['match finished','finished','ft','aet','pen','after'].some(v => s.includes(v)) ? 'final'
-            : (ev.intHomeScore !== null && ev.intAwayScore !== null) ? 'final'
-            : 'next';
-      hs = ev.intHomeScore !== null ? Number(ev.intHomeScore) : 0;
-      as = ev.intAwayScore !== null ? Number(ev.intAwayScore) : 0;
-      minute = '';
-      hImg = COMP.useClubLogos ? (ev.strHomeTeamBadge ?? '') : '';
-      aImg = COMP.useClubLogos ? (ev.strAwayTeamBadge ?? '') : '';
+  // ── Transición de jornada: si todos los partidos ya han finalizado, avanzar ──
+  // Evita mostrar indefinidamente la jornada anterior cuando ya terminó.
+  if (COMP.phaseType === 'matchday' && currentMatchday &&
+      enriched.length > 0 && enriched.every(e => e.state === 'final')) {
+    const nextNum = currentMatchday + 1;
+    console.log(`Jornada ${currentMatchday} finalizada — probando jornada ${nextNum}`);
+    const nextEvents = await fetchRound(nextNum);
+    if (nextEvents.length) {
+      currentMatchday = nextNum;
+      enriched = enrichRound(nextEvents, espnIndex);
+      console.log(`Avanzado a jornada ${nextNum}`);
     }
-    return { ev, state, hs, as, minute, hImg, aImg, startMs, age };
-  });
+  }
 
   let selected;
 
@@ -382,3 +399,4 @@ function isoFromName(name) {
 }
 
 main().catch(e => { console.error(e.message); process.exit(1); });
+
