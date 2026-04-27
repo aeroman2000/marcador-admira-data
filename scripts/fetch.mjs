@@ -312,8 +312,40 @@ async function main() {
       // eventsround devolvió datos: 10 partidos enriquecidos con ESPN live scores
       selected = enriched.sort((a, b) => a.startMs - b.startMs);
     } else {
-      // Fallback: ESPN directo (sin intRound, round viene de currentMatchday)
-      selected = espnEvents.map(entryFromEspn).sort((a, b) => a.startMs - b.startMs);
+      // Fallback ESPN directo — agrupar por jornada para no mezclar rondas distintas
+      const allEntries = espnEvents.map(entryFromEspn);
+      const parseRound = e => { const m = String(e.ev.strRound ?? '').match(/\d+/); return m ? parseInt(m[0]) : 0; };
+
+      // Intentar agrupar por número de jornada del headline ESPN (ej. "Matchday 32")
+      const byRound = new Map();
+      for (const e of allEntries) {
+        const r = parseRound(e);
+        if (!byRound.has(r)) byRound.set(r, []);
+        byRound.get(r).push(e);
+      }
+
+      // Elegir la jornada más relevante
+      let bestRound = 0;
+      const nowMs = Date.now();
+      if (allEntries.some(e => e.state === 'live')) {
+        bestRound = parseRound(allEntries.find(e => e.state === 'live'));
+      } else {
+        const started = [...byRound.entries()]
+          .filter(([, evts]) => evts.some(e => e.startMs <= nowMs))
+          .sort(([a], [b]) => b - a);
+        if (started.length) {
+          bestRound = started[0][0];
+        } else {
+          const upcoming = [...byRound.entries()]
+            .filter(([, evts]) => evts.some(e => e.startMs > nowMs))
+            .sort(([a], [b]) => a - b);
+          if (upcoming.length) bestRound = upcoming[0][0];
+        }
+      }
+
+      const roundGroup = (bestRound > 0 && byRound.has(bestRound)) ? byRound.get(bestRound) : allEntries;
+      if (bestRound > 0 && !currentMatchday) currentMatchday = bestRound;
+      selected = roundGroup.sort((a, b) => a.startMs - b.startMs).slice(0, 10);
     }
   } else {
     // Prioridad clásica: live > próximos (72 h) > finalizados (48 h)
@@ -362,7 +394,8 @@ async function main() {
   // Fase: para jornadas usar intRound; para otros, lógica existente
   let phase;
   if (COMP.phaseType === 'matchday' && (currentMatchday || selected.length)) {
-    phase = `JORNADA ${currentMatchday || parseInt(selected[0].ev.intRound)}`;
+    const jornadaNum = currentMatchday || parseInt(selected[0]?.ev?.intRound);
+    phase = (jornadaNum && !isNaN(jornadaNum)) ? `JORNADA ${jornadaNum}` : COMP.defaultPhase;
   } else {
     const refRound = (selected.find(e => e.state === 'live') ?? selected[0])?.ev.intRound
                   ?? (selected.find(e => e.state === 'live') ?? selected[0])?.ev.strRound;
@@ -399,4 +432,5 @@ function isoFromName(name) {
 }
 
 main().catch(e => { console.error(e.message); process.exit(1); });
+
 
