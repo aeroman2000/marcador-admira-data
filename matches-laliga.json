@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-27T21:00:39.941Z",
+  "updatedAt": "2026-04-27T21:05:15.205Z",
   "title": "LA LIGA",
   "phase": "LA LIGA",
   "matches": [
@@ -54,14 +54,13 @@
     {
       "home": "Espanyol",
       "away": "Levante",
-      "state": "live",
+      "state": "final",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-      "minute": "90'+3'",
       "round": 0
     },
     {
