@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-04-27T16:20:25.924Z",
+  "updatedAt": "2026-04-27T16:25:19.258Z",
   "title": "LA LIGA",
-  "phase": "JORNADA NaN",
+  "phase": "LA LIGA",
   "matches": [
     {
       "home": "Rayo Vallecano",
@@ -133,62 +133,6 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
       "group": "",
       "date": "2 MAY · 21:00 h",
-      "round": 0
-    },
-    {
-      "home": "Celta Vigo",
-      "away": "Elche",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "group": "",
-      "date": "3 MAY · 14:00 h",
-      "round": 0
-    },
-    {
-      "home": "Getafe",
-      "away": "Rayo Vallecano",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-      "group": "",
-      "date": "3 MAY · 16:15 h",
-      "round": 0
-    },
-    {
-      "home": "Real Betis",
-      "away": "Real Oviedo",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
-      "group": "",
-      "date": "3 MAY · 18:30 h",
-      "round": 0
-    },
-    {
-      "home": "Espanyol",
-      "away": "Real Madrid",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "group": "",
-      "date": "3 MAY · 21:00 h",
       "round": 0
     }
   ]
