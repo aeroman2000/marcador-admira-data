@@ -160,7 +160,7 @@ function entryFromEspn(espnEv) {
            startMs, age: Date.now() - startMs };
 }
 
-// ─── Jornada actual desde TSDB eventsday (ventana ±4 días) ──────────────────
+// ─── Jornada actual desde TSDB eventsday (ventana ±3 días) ──────────────────
 // Resuelve el caso en que eventsseason devuelve datos incompletos (ej. La Liga).
 
 // Paso 1: detecta el número de la jornada activa consultando eventsday ±3 días
@@ -180,9 +180,57 @@ async function fetchCurrentMatchday() {
     const round = parseInt(results[i].value.events?.[0]?.intRound);
     if (round > 0) found.push({ round, dayMs: dates[i].ms });
   }
-  if (!found.length) return null;
-  const past = found.filter(f => f.dayMs <= now).sort((a,b) => b.dayMs - a.dayMs);
-  return (past.length ? past[0] : found.sort((a,b) => a.dayMs - b.dayMs)[0]).round;
+  if (found.length) {
+    const past = found.filter(f => f.dayMs <= now).sort((a,b) => b.dayMs - a.dayMs);
+    return (past.length ? past[0] : found.sort((a,b) => a.dayMs - b.dayMs)[0]).round;
+  }
+  // Fallback: eventsday falló → detectar jornada por scan de eventsround
+  console.warn('eventsday sin resultados — fallback a scan de eventsround');
+  return fetchCurrentMatchdayByRoundScan();
+}
+
+// Fallback para cuando eventsday no devuelve resultados.
+// Escanea eventsround en un rango estimado y elige la jornada más reciente
+// que ya haya comenzado (o la próxima si ninguna ha empezado aún).
+async function fetchCurrentMatchdayByRoundScan() {
+  const now = Date.now();
+  // La Liga arranca ~10 agosto, 38 jornadas en ~290 días
+  const [startYear] = COMP.season.split('-').map(Number);
+  const seasonStart = new Date(startYear, 7, 10).getTime();
+  const estimatedRound = Math.min(Math.max(Math.round((now - seasonStart) / 864e5 * 38 / 290), 1), 38);
+  const lo = Math.max(1, estimatedRound - 3);
+  const hi = Math.min(38, estimatedRound + 3);
+  const candidates = Array.from({ length: hi - lo + 1 }, (_, i) => lo + i);
+  console.log(`[round-scan] estimado=${estimatedRound}, probando jornadas ${lo}-${hi}`);
+
+  const results = await Promise.allSettled(
+    candidates.map(r => get(`${TSDB}/eventsround.php?id=${COMP.league}&r=${r}&s=${COMP.season}`))
+  );
+
+  let bestRound = null, latestPastMs = -Infinity;
+  let earliestFutureRound = null, earliestFutureMs = Infinity;
+
+  for (let i = 0; i < results.length; i++) {
+    if (results[i].status !== 'fulfilled') continue;
+    const events = results[i].value.events ?? [];
+    if (!events.length) continue;
+    const round = candidates[i];
+    const times = events
+      .map(e => new Date(`${e.dateEvent}T${(e.strTime || '12:00:00').replace(/Z.*$/, '')}Z`).getTime())
+      .filter(t => !isNaN(t));
+    if (!times.length) continue;
+    const firstMs = Math.min(...times);
+    const lastMs  = Math.max(...times);
+    if (firstMs <= now) {
+      if (lastMs > latestPastMs) { latestPastMs = lastMs; bestRound = round; }
+    } else if (firstMs < earliestFutureMs) {
+      earliestFutureMs = firstMs; earliestFutureRound = round;
+    }
+  }
+
+  const chosen = bestRound ?? earliestFutureRound;
+  console.log(`[round-scan] jornada detectada: ${chosen}`);
+  return chosen;
 }
 
 // Paso 2: obtiene los 10 partidos exactos de la jornada via eventsround
@@ -432,5 +480,3 @@ function isoFromName(name) {
 }
 
 main().catch(e => { console.error(e.message); process.exit(1); });
-
-
