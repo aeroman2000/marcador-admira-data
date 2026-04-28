@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T20:20:27.675Z",
+  "updatedAt": "2026-04-28T20:25:20.600Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "SEMIFINALES",
   "matches": [
@@ -7,13 +7,13 @@
       "home": "Paris Saint-Germain",
       "away": "Bayern Munich",
       "state": "live",
-      "hs": 3,
+      "hs": 4,
       "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-      "minute": "55'"
+      "minute": "57'"
     },
     {
       "home": "Atlético Madrid",
