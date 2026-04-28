@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T20:30:37.418Z",
+  "updatedAt": "2026-04-28T20:35:17.289Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "SEMIFINALES",
   "matches": [
@@ -8,12 +8,12 @@
       "away": "Bayern Munich",
       "state": "live",
       "hs": 5,
-      "as": 2,
+      "as": 3,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-      "minute": "62'"
+      "minute": "67'"
     },
     {
       "home": "Atlético Madrid",
