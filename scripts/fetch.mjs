@@ -207,7 +207,7 @@ async function fetchCurrentMatchdayByRoundScan() {
     candidates.map(r => get(`${TSDB}/eventsround.php?id=${COMP.league}&r=${r}&s=${COMP.season}`))
   );
 
-  let bestRound = null, latestPastMs = -Infinity;
+  let bestRound = null;
   let earliestFutureRound = null, earliestFutureMs = Infinity;
 
   for (let i = 0; i < results.length; i++) {
@@ -216,13 +216,13 @@ async function fetchCurrentMatchdayByRoundScan() {
     if (!events.length) continue;
     const round = candidates[i];
     const times = events
-      .map(e => new Date(`${e.dateEvent}T${(e.strTime || '12:00:00').replace(/Z.*$/, '')}Z`).getTime())
+      .map(e => new Date(`${e.dateEvent}T${e.strTime ?? '12:00:00'}Z`).getTime())
       .filter(t => !isNaN(t));
     if (!times.length) continue;
     const firstMs = Math.min(...times);
-    const lastMs  = Math.max(...times);
     if (firstMs <= now) {
-      if (lastMs > latestPastMs) { latestPastMs = lastMs; bestRound = round; }
+      // Usar el número de jornada más alto que ya ha comenzado (independiente del orden de fechas)
+      if (bestRound === null || round > bestRound) bestRound = round;
     } else if (firstMs < earliestFutureMs) {
       earliestFutureMs = firstMs; earliestFutureRound = round;
     }
@@ -339,14 +339,16 @@ async function main() {
   // Enriquecer TSDB con ESPN (tsdbEvents puede ser null si eventsround falló)
   let enriched = enrichRound(tsdbEvents ?? [], espnIndex);
 
-  // ── Transición de jornada: si todos los partidos ya han finalizado, avanzar ──
-  // Evita mostrar indefinidamente la jornada anterior cuando ya terminó.
-  if (COMP.phaseType === 'matchday' && currentMatchday &&
-      enriched.length > 0 && enriched.every(e => e.state === 'final')) {
-    const nextNum = currentMatchday + 1;
-    console.log(`Jornada ${currentMatchday} finalizada — probando jornada ${nextNum}`);
-    const nextEvents = await fetchRound(nextNum);
-    if (nextEvents.length) {
+  // ── Transición de jornada: avanzar mientras todos los partidos estén finalizados ──
+  // Usa un bucle (máx 5 saltos) para cubrir el caso en que varias jornadas seguidas
+  // ya han terminado (p. ej. cuando se jugaron fuera de orden cronológico).
+  if (COMP.phaseType === 'matchday' && currentMatchday) {
+    for (let jumps = 0; jumps < 5; jumps++) {
+      if (!enriched.length || !enriched.every(e => e.state === 'final')) break;
+      const nextNum = currentMatchday + 1;
+      console.log(`Jornada ${currentMatchday} finalizada — probando jornada ${nextNum}`);
+      const nextEvents = await fetchRound(nextNum);
+      if (!nextEvents.length) break;
       currentMatchday = nextNum;
       enriched = enrichRound(nextEvents, espnIndex);
       console.log(`Avanzado a jornada ${nextNum}`);
