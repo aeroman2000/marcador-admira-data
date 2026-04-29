@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-29T19:05:21.184Z",
+  "updatedAt": "2026-04-29T19:10:26.317Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "SEMIFINALES",
   "matches": [
@@ -17,15 +17,14 @@
     {
       "home": "Atlético Madrid",
       "away": "Arsenal",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-      "group": "1st Leg",
-      "date": "29 ABR · 21:00 h"
+      "minute": "3'"
     },
     {
       "home": "Arsenal",
