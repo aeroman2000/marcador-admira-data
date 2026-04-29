@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-04-28T23:55:14.701Z",
+  "updatedAt": "2026-04-29T00:00:41.136Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "SEMIFINALES",
   "matches": [
@@ -26,6 +26,19 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
       "group": "1st Leg",
       "date": "29 ABR · 21:00 h"
+    },
+    {
+      "home": "Arsenal",
+      "away": "Atlético Madrid",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+      "group": "2nd Leg - Tied on aggregate",
+      "date": "5 MAY · 21:00 h"
     }
   ]
 }
