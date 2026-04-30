@@ -1,19 +1,8 @@
 {
-  "updatedAt": "2026-04-29T23:55:14.816Z",
+  "updatedAt": "2026-04-30T00:00:43.795Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "SEMIFINALES",
   "matches": [
-    {
-      "home": "Paris Saint-Germain",
-      "away": "Bayern Munich",
-      "state": "final",
-      "hs": 5,
-      "as": 4,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png"
-    },
     {
       "home": "Atlético Madrid",
       "away": "Arsenal",
@@ -37,6 +26,19 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
       "group": "2nd Leg - Tied on aggregate",
       "date": "5 MAY · 21:00 h"
+    },
+    {
+      "home": "Bayern Munich",
+      "away": "Paris Saint-Germain",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+      "group": "2nd Leg - Paris Saint-Germain lead 5-4 on aggregate",
+      "date": "6 MAY · 21:00 h"
     }
   ]
 }
