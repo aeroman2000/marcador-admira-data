@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-01T19:45:25.776Z",
+  "updatedAt": "2026-05-01T19:50:18.481Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -8,12 +8,12 @@
       "away": "Mallorca",
       "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
-      "minute": "38'",
+      "minute": "43'",
       "round": 34
     },
     {
