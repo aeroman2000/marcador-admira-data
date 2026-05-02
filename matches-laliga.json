@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02T16:20:17.605Z",
+  "updatedAt": "2026-05-02T16:25:12.222Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -30,14 +30,13 @@
     {
       "home": "Valencia",
       "away": "Atlético Madrid",
-      "state": "live",
+      "state": "final",
       "hs": 0,
       "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-      "minute": "90'+7'",
       "round": 34
     },
     {
