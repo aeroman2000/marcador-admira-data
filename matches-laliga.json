@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02T18:15:17.196Z",
+  "updatedAt": "2026-05-02T18:20:17.262Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -44,7 +44,7 @@
       "away": "Athletic Bilbao",
       "state": "final",
       "hs": 2,
-      "as": 3,
+      "as": 4,
       "hCode": "",
       "aCode": "",
       "hImg": "https://r2.thesportsdb.com/images/media/team/badge/mfn99h1734673842.png",
