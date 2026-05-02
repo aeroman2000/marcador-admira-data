@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02T17:20:15.948Z",
+  "updatedAt": "2026-05-02T17:25:16.858Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -42,7 +42,7 @@
     {
       "home": "Deportivo Alavés",
       "away": "Athletic Bilbao",
-      "state": "final",
+      "state": "live",
       "hs": 1,
       "as": 0,
       "hCode": "",
