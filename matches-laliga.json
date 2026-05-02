@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02T19:05:14.391Z",
+  "updatedAt": "2026-05-02T19:10:15.875Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -54,15 +54,14 @@
     {
       "home": "Osasuna",
       "away": "Barcelona",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-      "group": "",
-      "date": "2 MAY · 21:00 h",
+      "minute": "4'",
       "round": 34
     },
     {
