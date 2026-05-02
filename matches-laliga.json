@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02T15:55:15.803Z",
+  "updatedAt": "2026-05-02T15:59:18.160Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -32,12 +32,12 @@
       "away": "Atlético Madrid",
       "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-      "minute": "73'",
+      "minute": "78'",
       "round": 34
     },
     {
