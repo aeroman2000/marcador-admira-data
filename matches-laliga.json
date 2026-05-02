@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02T13:35:12.608Z",
+  "updatedAt": "2026-05-02T13:40:21.991Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -19,13 +19,13 @@
       "home": "Villarreal",
       "away": "Levante",
       "state": "live",
-      "hs": 2,
+      "hs": 3,
       "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-      "minute": "67'",
+      "minute": "72'",
       "round": 34
     },
     {
