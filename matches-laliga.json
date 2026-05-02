@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-02T13:15:17.794Z",
+  "updatedAt": "2026-05-02T13:17:15.749Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -20,12 +20,12 @@
       "away": "Levante",
       "state": "live",
       "hs": 1,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-      "minute": "46'",
+      "minute": "51'",
       "round": 34
     },
     {
