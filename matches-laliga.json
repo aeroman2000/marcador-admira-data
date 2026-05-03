@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T14:20:17.478Z",
+  "updatedAt": "2026-05-03T14:25:19.160Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -78,15 +78,14 @@
     {
       "home": "Getafe",
       "away": "Rayo Vallecano",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-      "group": "",
-      "date": "3 MAY · 16:15 h",
+      "minute": "3'",
       "round": 34
     },
     {
