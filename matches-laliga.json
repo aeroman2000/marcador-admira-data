@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T16:35:14.726Z",
+  "updatedAt": "2026-05-03T16:40:17.765Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -90,15 +90,14 @@
     {
       "home": "Real Betis",
       "away": "Real Oviedo",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
-      "group": "",
-      "date": "3 MAY · 18:30 h",
+      "minute": "2'",
       "round": 34
     },
     {
