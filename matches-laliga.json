@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T20:56:47.225Z",
+  "updatedAt": "2026-05-03T21:00:37.759Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -102,14 +102,13 @@
     {
       "home": "Espanyol",
       "away": "Real Madrid",
-      "state": "live",
+      "state": "final",
       "hs": 0,
       "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "minute": "90'+3'",
       "round": 34
     },
     {
