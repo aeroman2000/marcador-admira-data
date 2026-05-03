@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T14:55:21.235Z",
+  "updatedAt": "2026-05-03T15:00:41.294Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -80,12 +80,12 @@
       "away": "Rayo Vallecano",
       "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-      "minute": "32'",
+      "minute": "38'",
       "round": 34
     },
     {
