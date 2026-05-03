@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-03T14:00:32.403Z",
+  "updatedAt": "2026-05-03T14:05:17.560Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -66,14 +66,13 @@
     {
       "home": "Celta Vigo",
       "away": "Elche",
-      "state": "live",
+      "state": "final",
       "hs": 3,
       "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "minute": "90'+4'",
       "round": 34
     },
     {
