@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-04T19:05:23.255Z",
+  "updatedAt": "2026-05-04T19:10:28.339Z",
   "title": "LA LIGA",
   "phase": "JORNADA 34",
   "matches": [
@@ -114,15 +114,14 @@
     {
       "home": "Sevilla",
       "away": "Real Sociedad",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "group": "",
-      "date": "4 MAY · 21:00 h",
+      "minute": "2'",
       "round": 34
     }
   ]
