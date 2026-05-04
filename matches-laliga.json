@@ -1,8 +1,68 @@
 {
-  "updatedAt": "2026-05-04T04:03:19.716Z",
+  "updatedAt": "2026-05-04T04:05:28.427Z",
   "title": "LA LIGA",
-  "phase": "LA LIGA",
+  "phase": "JORNADA 34",
   "matches": [
+    {
+      "home": "Girona",
+      "away": "Mallorca",
+      "state": "final",
+      "hs": 0,
+      "as": 1,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/kfu7zu1659897499.png",
+      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/ssptsx1473503730.png",
+      "round": 34
+    },
+    {
+      "home": "Villarreal",
+      "away": "Levante",
+      "state": "final",
+      "hs": 5,
+      "as": 1,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/vrypqy1473503073.png",
+      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/xwtxsx1473503739.png",
+      "round": 34
+    },
+    {
+      "home": "Valencia",
+      "away": "Atlético Madrid",
+      "state": "final",
+      "hs": 0,
+      "as": 2,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/dm8l6o1655594864.png",
+      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png",
+      "round": 34
+    },
+    {
+      "home": "Deportivo Alavés",
+      "away": "Athletic Bilbao",
+      "state": "final",
+      "hs": 2,
+      "as": 4,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/mfn99h1734673842.png",
+      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/68w7fe1639408210.png",
+      "round": 34
+    },
+    {
+      "home": "Osasuna",
+      "away": "Barcelona",
+      "state": "final",
+      "hs": 1,
+      "as": 2,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/rvspvt1473502960.png",
+      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/wq9sir1639406443.png",
+      "round": 34
+    },
     {
       "home": "Celta Vigo",
       "away": "Elche",
@@ -13,7 +73,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "round": 0
+      "round": 34
     },
     {
       "home": "Getafe",
@@ -25,7 +85,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-      "round": 0
+      "round": 34
     },
     {
       "home": "Real Betis",
@@ -37,7 +97,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
-      "round": 0
+      "round": 34
     },
     {
       "home": "Espanyol",
@@ -49,7 +109,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "round": 0
+      "round": 34
     },
     {
       "home": "Sevilla",
@@ -63,77 +123,7 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
       "group": "",
       "date": "4 MAY · 21:00 h",
-      "round": 0
-    },
-    {
-      "home": "Levante",
-      "away": "Osasuna",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-      "group": "",
-      "date": "8 MAY · 21:00 h",
-      "round": 0
-    },
-    {
-      "home": "Elche",
-      "away": "Alavés",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-      "group": "",
-      "date": "9 MAY · 14:00 h",
-      "round": 0
-    },
-    {
-      "home": "Sevilla",
-      "away": "Espanyol",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-      "group": "",
-      "date": "9 MAY · 16:15 h",
-      "round": 0
-    },
-    {
-      "home": "Atlético Madrid",
-      "away": "Celta Vigo",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-      "group": "",
-      "date": "9 MAY · 18:30 h",
-      "round": 0
-    },
-    {
-      "home": "Real Sociedad",
-      "away": "Real Betis",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-      "group": "",
-      "date": "9 MAY · 21:00 h",
-      "round": 0
+      "round": 34
     }
   ]
 }
