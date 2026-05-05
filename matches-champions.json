@@ -1,20 +1,19 @@
 {
-  "updatedAt": "2026-05-05T19:05:27.169Z",
+  "updatedAt": "2026-05-05T19:10:18.485Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "SEMIFINALES",
   "matches": [
     {
       "home": "Arsenal",
       "away": "Atlético Madrid",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-      "group": "2nd Leg - Tied on aggregate",
-      "date": "5 MAY · 21:00 h"
+      "minute": "4'"
     },
     {
       "home": "Bayern Munich",
