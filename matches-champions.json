@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-06T19:05:22.453Z",
+  "updatedAt": "2026-05-06T19:10:25.324Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "SEMIFINALES",
   "matches": [
@@ -17,15 +17,14 @@
     {
       "home": "Bayern Munich",
       "away": "Paris Saint-Germain",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-      "group": "2nd Leg - Paris Saint-Germain lead 5-4 on aggregate",
-      "date": "6 MAY · 21:00 h"
+      "minute": "3'"
     }
   ]
 }
