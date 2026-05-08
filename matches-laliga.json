@@ -1,19 +1,18 @@
 {
-  "updatedAt": "2026-05-08T21:00:41.274Z",
+  "updatedAt": "2026-05-08T21:05:19.735Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
     {
       "home": "Levante",
       "away": "Osasuna",
-      "state": "live",
+      "state": "final",
       "hs": 3,
       "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-      "minute": "90'",
       "round": 35
     },
     {
