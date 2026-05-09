@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T12:00:36.743Z",
+  "updatedAt": "2026-05-09T12:05:13.815Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -18,15 +18,13 @@
     {
       "home": "Elche",
       "away": "Deportivo Alavés",
-      "state": "next",
+      "state": "final",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://r2.thesportsdb.com/images/media/team/badge/e4vaw51655594332.png",
       "aImg": "https://r2.thesportsdb.com/images/media/team/badge/mfn99h1734673842.png",
-      "group": "",
-      "date": "9 MAY · 14:00 h",
       "round": 35
     },
     {
