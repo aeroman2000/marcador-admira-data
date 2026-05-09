@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T15:45:19.330Z",
+  "updatedAt": "2026-05-09T15:50:21.673Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -32,12 +32,12 @@
       "away": "Espanyol",
       "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-      "minute": "51'",
+      "minute": "56'",
       "round": 35
     },
     {
