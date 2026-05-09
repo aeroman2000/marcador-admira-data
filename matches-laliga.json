@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T19:45:20.166Z",
+  "updatedAt": "2026-05-09T19:50:15.979Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -56,12 +56,12 @@
       "away": "Real Betis",
       "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-      "minute": "38'",
+      "minute": "43'",
       "round": 35
     },
     {
