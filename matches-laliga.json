@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T13:10:17.531Z",
+  "updatedAt": "2026-05-09T13:15:17.658Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -20,7 +20,7 @@
       "away": "Deportivo Alavés",
       "state": "final",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://r2.thesportsdb.com/images/media/team/badge/e4vaw51655594332.png",
