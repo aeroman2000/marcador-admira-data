@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T16:35:13.633Z",
+  "updatedAt": "2026-05-09T16:40:23.832Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -42,15 +42,14 @@
     {
       "home": "Atlético Madrid",
       "away": "Celta Vigo",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-      "group": "",
-      "date": "9 MAY · 18:30 h",
+      "minute": "2'",
       "round": 35
     },
     {
