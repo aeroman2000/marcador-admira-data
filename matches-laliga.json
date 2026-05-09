@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T19:05:16.488Z",
+  "updatedAt": "2026-05-09T19:10:20.855Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -54,15 +54,14 @@
     {
       "home": "Real Sociedad",
       "away": "Real Betis",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-      "group": "",
-      "date": "9 MAY · 21:00 h",
+      "minute": "3'",
       "round": 35
     },
     {
