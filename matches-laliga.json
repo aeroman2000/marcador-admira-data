@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T13:30:32.706Z",
+  "updatedAt": "2026-05-09T13:35:16.119Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -19,7 +19,7 @@
       "home": "Elche",
       "away": "Deportivo Alavés",
       "state": "final",
-      "hs": 0,
+      "hs": 1,
       "as": 1,
       "hCode": "",
       "aCode": "",
