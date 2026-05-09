@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-09T14:25:14.305Z",
+  "updatedAt": "2026-05-09T14:30:27.889Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -30,15 +30,14 @@
     {
       "home": "Sevilla",
       "away": "Espanyol",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-      "group": "",
-      "date": "9 MAY · 16:15 h",
+      "minute": "0'",
       "round": 35
     },
     {
