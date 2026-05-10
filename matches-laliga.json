@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-10T12:05:15.303Z",
+  "updatedAt": "2026-05-10T12:10:24.821Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -66,15 +66,14 @@
     {
       "home": "Mallorca",
       "away": "Villarreal",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-      "group": "",
-      "date": "10 MAY · 14:00 h",
+      "minute": "2'",
       "round": 35
     },
     {
