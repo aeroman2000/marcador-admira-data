@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-10T14:15:17.812Z",
+  "updatedAt": "2026-05-10T14:20:18.768Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -78,15 +78,13 @@
     {
       "home": "Athletic Bilbao",
       "away": "Valencia",
-      "state": "next",
+      "state": "final",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://r2.thesportsdb.com/images/media/team/badge/68w7fe1639408210.png",
       "aImg": "https://r2.thesportsdb.com/images/media/team/badge/dm8l6o1655594864.png",
-      "group": "",
-      "date": "10 MAY · 16:15 h",
       "round": 35
     },
     {
