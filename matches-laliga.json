@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-10T19:15:16.147Z",
+  "updatedAt": "2026-05-10T19:20:02.373Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -103,13 +103,13 @@
       "home": "Barcelona",
       "away": "Real Madrid",
       "state": "live",
-      "hs": 0,
+      "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "minute": "6'",
+      "minute": "11'",
       "round": 35
     },
     {
