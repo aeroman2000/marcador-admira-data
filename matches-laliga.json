@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-10T16:35:13.676Z",
+  "updatedAt": "2026-05-10T16:40:18.703Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -90,15 +90,14 @@
     {
       "home": "Real Oviedo",
       "away": "Getafe",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-      "group": "",
-      "date": "10 MAY · 18:30 h",
+      "minute": "2'",
       "round": 35
     },
     {
