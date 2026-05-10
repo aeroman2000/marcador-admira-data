@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-10T15:05:16.512Z",
+  "updatedAt": "2026-05-10T15:07:22.112Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -78,7 +78,7 @@
     {
       "home": "Athletic Bilbao",
       "away": "Valencia",
-      "state": "final",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
