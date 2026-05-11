@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-11T20:55:34.087Z",
+  "updatedAt": "2026-05-11T20:56:51.834Z",
   "title": "LA LIGA",
   "phase": "JORNADA 35",
   "matches": [
@@ -115,13 +115,13 @@
       "home": "Rayo Vallecano",
       "away": "Girona",
       "state": "live",
-      "hs": 0,
-      "as": 0,
+      "hs": 1,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
-      "minute": "85'",
+      "minute": "90'+6'",
       "round": 35
     }
   ]
