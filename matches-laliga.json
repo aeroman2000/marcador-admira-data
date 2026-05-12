@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T19:40:24.040Z",
+  "updatedAt": "2026-05-12T19:45:18.288Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -25,7 +25,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "minute": "70'",
+      "minute": "75'",
       "round": 36
     },
     {
@@ -38,7 +38,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-      "minute": "5'",
+      "minute": "10'",
       "round": 36
     },
     {
