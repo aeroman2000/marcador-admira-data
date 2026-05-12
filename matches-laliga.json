@@ -1,20 +1,19 @@
 {
-  "updatedAt": "2026-05-12T17:05:16.480Z",
+  "updatedAt": "2026-05-12T17:10:21.517Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
     {
       "home": "Celta Vigo",
       "away": "Levante",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-      "group": "",
-      "date": "12 MAY · 19:00 h",
+      "minute": "4'",
       "round": 36
     },
     {
