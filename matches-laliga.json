@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T19:35:15.119Z",
+  "updatedAt": "2026-05-12T19:40:24.040Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -19,27 +19,26 @@
       "home": "Real Betis",
       "away": "Elche",
       "state": "live",
-      "hs": 1,
+      "hs": 2,
       "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "minute": "60'",
+      "minute": "70'",
       "round": 36
     },
     {
       "home": "Osasuna",
       "away": "Atlético Madrid",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-      "group": "",
-      "date": "12 MAY · 21:30 h",
+      "minute": "5'",
       "round": 36
     },
     {
