@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T18:20:25.624Z",
+  "updatedAt": "2026-05-12T18:25:14.668Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -8,12 +8,12 @@
       "away": "Levante",
       "state": "live",
       "hs": 2,
-      "as": 1,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-      "minute": "55'",
+      "minute": "61'",
       "round": 36
     },
     {
@@ -26,7 +26,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "minute": "12'",
+      "minute": "16'",
       "round": 36
     },
     {
