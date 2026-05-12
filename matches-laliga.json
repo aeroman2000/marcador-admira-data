@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-12T21:15:19.118Z",
+  "updatedAt": "2026-05-12T21:20:23.956Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -32,12 +32,12 @@
       "away": "Atlético Madrid",
       "state": "live",
       "hs": 0,
-      "as": 1,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-      "minute": "64'",
+      "minute": "79'",
       "round": 36
     },
     {
