@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T19:00:37.109Z",
+  "updatedAt": "2026-05-13T19:05:14.769Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -54,14 +54,13 @@
     {
       "home": "Villarreal",
       "away": "Sevilla",
-      "state": "live",
+      "state": "final",
       "hs": 2,
       "as": 3,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-      "minute": "86'",
       "round": 36
     },
     {
