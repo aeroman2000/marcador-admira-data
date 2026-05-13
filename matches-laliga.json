@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T21:00:43.530Z",
+  "updatedAt": "2026-05-13T21:05:14.658Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -79,13 +79,13 @@
       "home": "Getafe",
       "away": "Mallorca",
       "state": "live",
-      "hs": 2,
-      "as": 0,
+      "hs": 3,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
-      "minute": "45'+5'",
+      "minute": "68'",
       "round": 36
     },
     {
