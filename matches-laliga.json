@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T17:45:38.129Z",
+  "updatedAt": "2026-05-13T17:50:37.250Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -42,7 +42,7 @@
     {
       "home": "Espanyol",
       "away": "Athletic Bilbao",
-      "state": "final",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
@@ -61,7 +61,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-      "minute": "38'",
+      "minute": "45'",
       "round": 36
     },
     {
