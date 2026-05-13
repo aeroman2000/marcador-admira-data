@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T18:05:21.822Z",
+  "updatedAt": "2026-05-13T18:07:45.615Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -56,12 +56,12 @@
       "away": "Sevilla",
       "state": "live",
       "hs": 2,
-      "as": 2,
+      "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-      "minute": "45'+5'",
+      "minute": "33'",
       "round": 36
     },
     {
