@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-13T20:15:22.947Z",
+  "updatedAt": "2026-05-13T20:20:22.362Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -66,8 +66,8 @@
     {
       "home": "Deportivo Alavés",
       "away": "Barcelona",
-      "state": "final",
-      "hs": 0,
+      "state": "live",
+      "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
@@ -79,13 +79,13 @@
       "home": "Getafe",
       "away": "Mallorca",
       "state": "live",
-      "hs": 1,
+      "hs": 2,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
-      "minute": "39'",
+      "minute": "44'",
       "round": 36
     },
     {
