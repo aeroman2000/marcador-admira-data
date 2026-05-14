@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T21:10:23.650Z",
+  "updatedAt": "2026-05-14T21:15:21.593Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -115,13 +115,13 @@
       "home": "Real Madrid",
       "away": "Real Oviedo",
       "state": "live",
-      "hs": 0,
+      "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
-      "minute": "42'",
+      "minute": "73'",
       "round": 36
     }
   ]
