@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T17:50:37.138Z",
+  "updatedAt": "2026-05-14T17:55:14.878Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -91,13 +91,13 @@
       "home": "Valencia",
       "away": "Rayo Vallecano",
       "state": "live",
-      "hs": 0,
+      "hs": 1,
       "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-      "minute": "32'",
+      "minute": "45'+2'",
       "round": 36
     },
     {
