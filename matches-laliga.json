@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T18:50:20.074Z",
+  "updatedAt": "2026-05-14T18:55:26.446Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -97,7 +97,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-      "minute": "57'",
+      "minute": "87'",
       "round": 36
     },
     {
@@ -105,12 +105,12 @@
       "away": "Real Sociedad",
       "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "minute": "19'",
+      "minute": "45'+4'",
       "round": 36
     },
     {
