@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-14T18:05:18.053Z",
+  "updatedAt": "2026-05-14T18:10:25.656Z",
   "title": "LA LIGA",
   "phase": "JORNADA 36",
   "matches": [
@@ -103,15 +103,14 @@
     {
       "home": "Girona",
       "away": "Real Sociedad",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "group": "",
-      "date": "14 MAY · 20:00 h",
+      "minute": "3'",
       "round": 36
     },
     {
