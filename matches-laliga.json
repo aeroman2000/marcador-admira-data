@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-17T20:45:16.081Z",
+  "updatedAt": "2026-05-17T20:50:18.474Z",
   "title": "LA LIGA",
   "phase": "JORNADA 37",
   "matches": [
@@ -115,13 +115,13 @@
       "home": "Barcelona",
       "away": "Real Betis",
       "state": "live",
-      "hs": 1,
+      "hs": 2,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-      "minute": "57'",
+      "minute": "67'",
       "round": 37
     }
   ]
