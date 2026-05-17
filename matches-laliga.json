@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-17T21:10:20.040Z",
+  "updatedAt": "2026-05-17T21:15:18.521Z",
   "title": "LA LIGA",
   "phase": "JORNADA 37",
   "matches": [
@@ -121,7 +121,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-      "minute": "77'",
+      "minute": "90'+2'",
       "round": 37
     }
   ]
