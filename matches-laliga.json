@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-17T17:40:21.058Z",
+  "updatedAt": "2026-05-17T17:45:17.371Z",
   "title": "LA LIGA",
   "phase": "JORNADA 37",
   "matches": [
@@ -19,39 +19,39 @@
       "home": "Atlético Madrid",
       "away": "Girona",
       "state": "live",
-      "hs": 0,
+      "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
-      "minute": "17'",
+      "minute": "34'",
       "round": 37
     },
     {
       "home": "Elche",
       "away": "Getafe",
       "state": "live",
-      "hs": 0,
+      "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-      "minute": "18'",
+      "minute": "32'",
       "round": 37
     },
     {
       "home": "Levante",
       "away": "Mallorca",
       "state": "live",
-      "hs": 0,
+      "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
-      "minute": "17'",
+      "minute": "35'",
       "round": 37
     },
     {
@@ -59,25 +59,25 @@
       "away": "Espanyol",
       "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-      "minute": "17'",
+      "minute": "33'",
       "round": 37
     },
     {
       "home": "Rayo Vallecano",
       "away": "Villarreal",
       "state": "live",
-      "hs": 0,
+      "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-      "minute": "18'",
+      "minute": "34'",
       "round": 37
     },
     {
@@ -85,12 +85,12 @@
       "away": "Valencia",
       "state": "live",
       "hs": 1,
-      "as": 1,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-      "minute": "16'",
+      "minute": "34'",
       "round": 37
     },
     {
@@ -115,7 +115,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "minute": "17'",
+      "minute": "35'",
       "round": 37
     },
     {
