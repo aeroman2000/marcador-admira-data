@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-17T18:15:18.229Z",
+  "updatedAt": "2026-05-17T18:20:24.861Z",
   "title": "LA LIGA",
   "phase": "JORNADA 37",
   "matches": [
@@ -25,7 +25,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
-      "minute": "40'",
+      "minute": "55'",
       "round": 37
     },
     {
@@ -38,7 +38,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-      "minute": "39'",
+      "minute": "55'",
       "round": 37
     },
     {
@@ -51,33 +51,33 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
-      "minute": "40'",
+      "minute": "55'",
       "round": 37
     },
     {
       "home": "Osasuna",
       "away": "Espanyol",
       "state": "live",
-      "hs": 0,
-      "as": 1,
+      "hs": 1,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-      "minute": "40'",
+      "minute": "55'",
       "round": 37
     },
     {
       "home": "Rayo Vallecano",
       "away": "Villarreal",
       "state": "live",
-      "hs": 1,
+      "hs": 2,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-      "minute": "39'",
+      "minute": "55'",
       "round": 37
     },
     {
@@ -90,7 +90,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-      "minute": "40'",
+      "minute": "52'",
       "round": 37
     },
     {
@@ -115,7 +115,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "minute": "39'",
+      "minute": "55'",
       "round": 37
     },
     {
