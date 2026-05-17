@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-17T19:05:16.402Z",
+  "updatedAt": "2026-05-17T19:10:16.898Z",
   "title": "LA LIGA",
   "phase": "JORNADA 37",
   "matches": [
@@ -30,66 +30,61 @@
     {
       "home": "Elche",
       "away": "Getafe",
-      "state": "live",
+      "state": "final",
       "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-      "minute": "90'+3'",
       "round": 37
     },
     {
       "home": "Levante",
       "away": "Mallorca",
-      "state": "live",
+      "state": "final",
       "hs": 2,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
-      "minute": "90'+4'",
       "round": 37
     },
     {
       "home": "Osasuna",
       "away": "Espanyol",
-      "state": "live",
+      "state": "final",
       "hs": 1,
       "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-      "minute": "90'+4'",
       "round": 37
     },
     {
       "home": "Rayo Vallecano",
       "away": "Villarreal",
-      "state": "live",
+      "state": "final",
       "hs": 2,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-      "minute": "90'+4'",
       "round": 37
     },
     {
       "home": "Real Sociedad",
       "away": "Valencia",
-      "state": "live",
+      "state": "final",
       "hs": 3,
       "as": 4,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-      "minute": "90'+3'",
       "round": 37
     },
     {
