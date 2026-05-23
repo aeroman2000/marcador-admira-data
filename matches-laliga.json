@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-05-23T20:05:16.106Z",
+  "updatedAt": "2026-05-23T20:10:22.711Z",
   "title": "LA LIGA",
   "phase": "JORNADA 38",
   "matches": [
     {
       "home": "Deportivo Alavés",
       "away": "Rayo Vallecano",
-      "state": "live",
+      "state": "final",
       "hs": 1,
       "as": 0,
       "hCode": "",
@@ -51,7 +51,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "minute": "45'+4'",
+      "minute": "45'",
       "round": 38
     },
     {
@@ -96,7 +96,7 @@
     {
       "home": "Real Madrid",
       "away": "Athletic Bilbao",
-      "state": "live",
+      "state": "final",
       "hs": 2,
       "as": 1,
       "hCode": "",
