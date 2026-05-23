@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T21:00:39.266Z",
+  "updatedAt": "2026-05-23T21:05:16.969Z",
   "title": "LA LIGA",
   "phase": "JORNADA 38",
   "matches": [
@@ -25,7 +25,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-      "minute": "90'+2'",
+      "minute": "78'",
       "round": 38
     },
     {
@@ -38,7 +38,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-      "minute": "90'+3'",
+      "minute": "78'",
       "round": 38
     },
     {
@@ -51,7 +51,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "minute": "90'+3'",
+      "minute": "78'",
       "round": 38
     },
     {
@@ -64,7 +64,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-      "minute": "90'+3'",
+      "minute": "78'",
       "round": 38
     },
     {
@@ -77,20 +77,20 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "minute": "90'+3'",
+      "minute": "78'",
       "round": 38
     },
     {
       "home": "Mallorca",
       "away": "Real Oviedo",
       "state": "live",
-      "hs": 3,
+      "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
-      "minute": "90'+2'",
+      "minute": "77'",
       "round": 38
     },
     {
@@ -115,7 +115,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-      "minute": "90'+3'",
+      "minute": "77'",
       "round": 38
     },
     {
