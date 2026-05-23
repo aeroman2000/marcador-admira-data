@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T20:50:19.072Z",
+  "updatedAt": "2026-05-23T20:55:16.014Z",
   "title": "LA LIGA",
   "phase": "JORNADA 38",
   "matches": [
@@ -8,7 +8,7 @@
       "away": "Rayo Vallecano",
       "state": "final",
       "hs": 1,
-      "as": 1,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://r2.thesportsdb.com/images/media/team/badge/mfn99h1734673842.png",
@@ -25,7 +25,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-      "minute": "82'",
+      "minute": "88'",
       "round": 38
     },
     {
@@ -38,7 +38,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-      "minute": "81'",
+      "minute": "87'",
       "round": 38
     },
     {
@@ -51,7 +51,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-      "minute": "83'",
+      "minute": "88'",
       "round": 38
     },
     {
@@ -64,7 +64,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-      "minute": "82'",
+      "minute": "87'",
       "round": 38
     },
     {
@@ -77,28 +77,28 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "minute": "83'",
+      "minute": "88'",
       "round": 38
     },
     {
       "home": "Mallorca",
       "away": "Real Oviedo",
       "state": "live",
-      "hs": 1,
+      "hs": 3,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/84.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/92.png",
-      "minute": "82'",
+      "minute": "88'",
       "round": 38
     },
     {
       "home": "Real Madrid",
       "away": "Athletic Bilbao",
       "state": "final",
-      "hs": 3,
-      "as": 1,
+      "hs": 4,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
@@ -115,7 +115,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-      "minute": "82'",
+      "minute": "87'",
       "round": 38
     },
     {
