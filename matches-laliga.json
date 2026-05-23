@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-23T19:53:26.913Z",
+  "updatedAt": "2026-05-23T19:55:16.242Z",
   "title": "LA LIGA",
   "phase": "JORNADA 38",
   "matches": [
@@ -25,7 +25,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-      "minute": "45'+4'",
+      "minute": "45'+5'",
       "round": 38
     },
     {
@@ -77,7 +77,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/9812.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-      "minute": "45'+3'",
+      "minute": "45'+5'",
       "round": 38
     },
     {
@@ -115,7 +115,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-      "minute": "45'+4'",
+      "minute": "45'+6'",
       "round": 38
     },
     {
