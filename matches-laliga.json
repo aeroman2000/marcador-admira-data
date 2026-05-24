@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-05-24T20:53:57.031Z",
+  "updatedAt": "2026-05-24T21:51:21.177Z",
   "title": "LA LIGA",
   "phase": "JORNADA 38",
   "matches": [
@@ -114,14 +114,15 @@
     {
       "home": "Villarreal",
       "away": "Atlético Madrid",
-      "state": "live",
-      "hs": 4,
-      "as": 1,
+      "state": "next",
+      "hs": 0,
+      "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-      "minute": "45'+6'",
+      "group": "",
+      "date": "24 MAY · 21:00 h",
       "round": 38
     }
   ]
