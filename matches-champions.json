@@ -1,20 +1,19 @@
 {
-  "updatedAt": "2026-05-30T16:59:02.757Z",
+  "updatedAt": "2026-05-30T18:07:02.629Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "FINAL",
   "matches": [
     {
       "home": "Paris Saint-Germain",
       "away": "Arsenal",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "live",
+      "hs": 1,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-      "group": "",
-      "date": "30 MAY · 18:00 h"
+      "minute": "97'"
     }
   ]
 }
