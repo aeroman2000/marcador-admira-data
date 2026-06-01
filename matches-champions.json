@@ -1,18 +1,6 @@
 {
-  "updatedAt": "2026-05-31T23:31:49.956Z",
+  "updatedAt": "2026-06-01T01:55:45.897Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "FINAL",
-  "matches": [
-    {
-      "home": "Paris Saint-Germain",
-      "away": "Arsenal",
-      "state": "final",
-      "hs": 1,
-      "as": 1,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
-    }
-  ]
+  "matches": []
 }
