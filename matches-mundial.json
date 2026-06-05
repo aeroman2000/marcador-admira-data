@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-04T23:07:46.155Z",
+  "updatedAt": "2026-06-05T00:18:41.064Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -11,8 +11,8 @@
       "as": 0,
       "hCode": "mx",
       "aCode": "za",
-      "hImg": "",
-      "aImg": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
       "group": "",
       "date": "11 JUN · 21:00 h"
     },
