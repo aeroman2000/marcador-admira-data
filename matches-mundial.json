@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-05T23:12:31.982Z",
+  "updatedAt": "2026-06-06T00:19:48.826Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -37,8 +37,8 @@
       "as": 0,
       "hCode": "ca",
       "aCode": "ba",
-      "hImg": "",
-      "aImg": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "group": "",
       "date": "12 JUN · 21:00 h"
     },
