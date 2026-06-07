@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-06T23:43:15.942Z",
+  "updatedAt": "2026-06-07T01:56:43.257Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -63,8 +63,8 @@
       "as": 0,
       "hCode": "qa",
       "aCode": "ch",
-      "hImg": "",
-      "aImg": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "group": "",
       "date": "13 JUN · 21:00 h"
     },
@@ -76,8 +76,8 @@
       "as": 0,
       "hCode": "br",
       "aCode": "ma",
-      "hImg": "",
-      "aImg": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "group": "",
       "date": "14 JUN · 00:00 h"
     },
@@ -89,8 +89,8 @@
       "as": 0,
       "hCode": "ht",
       "aCode": "gb-sct",
-      "hImg": "",
-      "aImg": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
       "group": "",
       "date": "14 JUN · 03:00 h"
     },
