@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-06-12T01:38:16.425Z",
+  "updatedAt": "2026-06-12T06:17:36.723Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
-    {
-      "home": "South Korea",
-      "away": "Czech Republic",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "kr",
-      "aCode": "cz",
-      "hImg": "",
-      "aImg": "",
-      "group": "",
-      "date": "12 JUN · 04:00 h"
-    },
     {
       "home": "Canada",
       "away": "Bosnia-Herzegovina",
@@ -132,6 +119,19 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
       "group": "",
       "date": "15 JUN · 01:00 h"
+    },
+    {
+      "home": "Sweden",
+      "away": "Tunisia",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "sw",
+      "aCode": "tu",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
+      "group": "",
+      "date": "15 JUN · 04:00 h"
     }
   ]
 }
