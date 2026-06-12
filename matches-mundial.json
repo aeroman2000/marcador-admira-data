@@ -1,21 +1,8 @@
 {
-  "updatedAt": "2026-06-12T20:36:21.337Z",
+  "updatedAt": "2026-06-12T22:13:06.045Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
-    {
-      "home": "Canada",
-      "away": "Bosnia-Herzegovina",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "ca",
-      "aCode": "ba",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
-      "group": "",
-      "date": "12 JUN · 21:00 h"
-    },
     {
       "home": "USA",
       "away": "Paraguay",
@@ -132,6 +119,19 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
       "group": "",
       "date": "15 JUN · 04:00 h"
+    },
+    {
+      "home": "Spain",
+      "away": "Cape Verde",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "es",
+      "aCode": "ca",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
+      "group": "",
+      "date": "15 JUN · 18:00 h"
     }
   ]
 }
