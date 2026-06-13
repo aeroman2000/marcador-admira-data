@@ -1,8 +1,20 @@
 {
-  "updatedAt": "2026-06-13T21:59:52.019Z",
+  "updatedAt": "2026-06-13T23:15:53.198Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
+    {
+      "home": "Qatar",
+      "away": "Switzerland",
+      "state": "live",
+      "hs": 0,
+      "as": 1,
+      "hCode": "qa",
+      "aCode": "ch",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "minute": "88'"
+    },
     {
       "home": "Brazil",
       "away": "Morocco",
@@ -119,19 +131,6 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "group": "",
       "date": "15 JUN · 21:00 h"
-    },
-    {
-      "home": "Saudi Arabia",
-      "away": "Uruguay",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
-      "hCode": "sa",
-      "aCode": "uy",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
-      "group": "",
-      "date": "16 JUN · 00:00 h"
     }
   ]
 }
