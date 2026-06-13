@@ -1,20 +1,19 @@
 {
-  "updatedAt": "2026-06-13T19:44:32.908Z",
+  "updatedAt": "2026-06-13T20:54:52.746Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
     {
       "home": "Qatar",
       "away": "Switzerland",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "qa",
       "aCode": "ch",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "group": "",
-      "date": "13 JUN · 21:00 h"
+      "minute": "40'"
     },
     {
       "home": "Brazil",
