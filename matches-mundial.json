@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T18:57:31.423Z",
+  "updatedAt": "2026-06-14T20:20:38.360Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -22,17 +22,6 @@
       "as": 1,
       "hCode": "us",
       "aCode": "py",
-      "hImg": "",
-      "aImg": ""
-    },
-    {
-      "home": "Canada",
-      "away": "Bosnia-Herzegovina",
-      "state": "final",
-      "hs": 1,
-      "as": 1,
-      "hCode": "ca",
-      "aCode": "ba",
       "hImg": "",
       "aImg": ""
     }
