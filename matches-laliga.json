@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-13T23:15:54.148Z",
+  "updatedAt": "2026-06-14T06:19:29.797Z",
   "title": "LA LIGA",
   "phase": "JORNADA 38",
   "matches": [
@@ -61,66 +61,6 @@
       "aCode": "",
       "hImg": "https://r2.thesportsdb.com/images/media/team/badge/eyh2891655594452.png",
       "aImg": "https://r2.thesportsdb.com/images/media/team/badge/rvspvt1473502960.png",
-      "round": 38
-    },
-    {
-      "home": "Girona",
-      "away": "Elche",
-      "state": "final",
-      "hs": 1,
-      "as": 1,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/kfu7zu1659897499.png",
-      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/e4vaw51655594332.png",
-      "round": 38
-    },
-    {
-      "home": "Mallorca",
-      "away": "Real Oviedo",
-      "state": "final",
-      "hs": 3,
-      "as": 0,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/ssptsx1473503730.png",
-      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/yuwqus1447590681.png",
-      "round": 38
-    },
-    {
-      "home": "Real Madrid",
-      "away": "Athletic Bilbao",
-      "state": "final",
-      "hs": 4,
-      "as": 2,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/vwvwrw1473502969.png",
-      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/68w7fe1639408210.png",
-      "round": 38
-    },
-    {
-      "home": "Valencia",
-      "away": "Barcelona",
-      "state": "final",
-      "hs": 3,
-      "as": 1,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/dm8l6o1655594864.png",
-      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/wq9sir1639406443.png",
-      "round": 38
-    },
-    {
-      "home": "Villarreal",
-      "away": "Atlético Madrid",
-      "state": "final",
-      "hs": 5,
-      "as": 1,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://r2.thesportsdb.com/images/media/team/badge/vrypqy1473503073.png",
-      "aImg": "https://r2.thesportsdb.com/images/media/team/badge/0ulh3q1719984315.png",
       "round": 38
     }
   ]
