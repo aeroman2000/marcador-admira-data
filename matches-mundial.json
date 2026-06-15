@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-15T00:05:13.992Z",
+  "updatedAt": "2026-06-15T05:24:05.734Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -11,17 +11,6 @@
       "as": 1,
       "hCode": "br",
       "aCode": "ma",
-      "hImg": "",
-      "aImg": ""
-    },
-    {
-      "home": "USA",
-      "away": "Paraguay",
-      "state": "final",
-      "hs": 4,
-      "as": 1,
-      "hCode": "us",
-      "aCode": "py",
       "hImg": "",
       "aImg": ""
     }
