@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-14T22:54:39.646Z",
+  "updatedAt": "2026-06-15T00:05:13.992Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -11,8 +11,8 @@
       "as": 1,
       "hCode": "br",
       "aCode": "ma",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
+      "hImg": "",
+      "aImg": ""
     },
     {
       "home": "USA",
