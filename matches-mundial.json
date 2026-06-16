@@ -1,63 +1,8 @@
 {
-  "updatedAt": "2026-06-15T22:24:56.709Z",
+  "updatedAt": "2026-06-16T00:09:34.160Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
-    {
-      "home": "Australia",
-      "away": "Türkiye",
-      "state": "final",
-      "hs": 2,
-      "as": 0,
-      "hCode": "au",
-      "aCode": "tr",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png"
-    },
-    {
-      "home": "Germany",
-      "away": "Curaçao",
-      "state": "final",
-      "hs": 7,
-      "as": 1,
-      "hCode": "de",
-      "aCode": "cu",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png"
-    },
-    {
-      "home": "Netherlands",
-      "away": "Japan",
-      "state": "final",
-      "hs": 2,
-      "as": 2,
-      "hCode": "nl",
-      "aCode": "jp",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
-    },
-    {
-      "home": "Ivory Coast",
-      "away": "Ecuador",
-      "state": "final",
-      "hs": 1,
-      "as": 0,
-      "hCode": "ci",
-      "aCode": "ec",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
-    },
-    {
-      "home": "Sweden",
-      "away": "Tunisia",
-      "state": "final",
-      "hs": 5,
-      "as": 1,
-      "hCode": "sw",
-      "aCode": "tu",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png"
-    },
     {
       "home": "Spain",
       "away": "Cape Verde",
@@ -83,14 +28,13 @@
     {
       "home": "Saudi Arabia",
       "away": "Uruguay",
-      "state": "live",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 1,
+      "as": 1,
       "hCode": "sa",
       "aCode": "uy",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
-      "minute": "21'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png"
     },
     {
       "home": "Iran",
@@ -117,6 +61,71 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
       "group": "",
       "date": "16 JUN · 21:00 h"
+    },
+    {
+      "home": "Iraq",
+      "away": "Norway",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "ir",
+      "aCode": "no",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "group": "",
+      "date": "17 JUN · 00:00 h"
+    },
+    {
+      "home": "Argentina",
+      "away": "Algeria",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "ar",
+      "aCode": "dz",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "group": "",
+      "date": "17 JUN · 03:00 h"
+    },
+    {
+      "home": "Austria",
+      "away": "Jordan",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "au",
+      "aCode": "jo",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
+      "group": "",
+      "date": "17 JUN · 06:00 h"
+    },
+    {
+      "home": "Portugal",
+      "away": "Congo DR",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "pt",
+      "aCode": "co",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "group": "",
+      "date": "17 JUN · 19:00 h"
+    },
+    {
+      "home": "England",
+      "away": "Croatia",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "gb-eng",
+      "aCode": "hr",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "group": "",
+      "date": "17 JUN · 22:00 h"
     }
   ]
 }
