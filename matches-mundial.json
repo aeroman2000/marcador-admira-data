@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-16T00:09:34.160Z",
+  "updatedAt": "2026-06-16T05:30:41.071Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -39,15 +39,14 @@
     {
       "home": "Iran",
       "away": "New Zealand",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "live",
+      "hs": 2,
+      "as": 2,
       "hCode": "ir",
       "aCode": "nz",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
-      "group": "",
-      "date": "16 JUN · 03:00 h"
+      "minute": "90'+2'"
     },
     {
       "home": "France",
