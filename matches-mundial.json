@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T01:41:15.036Z",
+  "updatedAt": "2026-06-17T06:50:44.437Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -29,13 +29,13 @@
       "home": "Argentina",
       "away": "Algeria",
       "state": "live",
-      "hs": 1,
+      "hs": 3,
       "as": 0,
       "hCode": "ar",
       "aCode": "dz",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
-      "minute": "38'"
+      "minute": "90'+6'"
     },
     {
       "home": "Austria",
