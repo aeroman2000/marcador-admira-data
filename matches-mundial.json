@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T21:46:37.042Z",
+  "updatedAt": "2026-06-17T23:09:47.877Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -61,15 +61,14 @@
     {
       "home": "England",
       "away": "Croatia",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "live",
+      "hs": 3,
+      "as": 2,
       "hCode": "gb-eng",
       "aCode": "hr",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
-      "group": "",
-      "date": "17 JUN · 22:00 h"
+      "minute": "82'"
     },
     {
       "home": "Ghana",
