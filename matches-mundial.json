@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-17T19:47:10.281Z",
+  "updatedAt": "2026-06-17T21:46:37.042Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,14 +50,13 @@
     {
       "home": "Portugal",
       "away": "Congo DR",
-      "state": "live",
+      "state": "final",
       "hs": 1,
-      "as": 0,
+      "as": 1,
       "hCode": "pt",
       "aCode": "co",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
-      "minute": "34'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png"
     },
     {
       "home": "England",
