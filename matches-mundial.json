@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T17:18:15.085Z",
+  "updatedAt": "2026-06-18T19:36:41.251Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -61,15 +61,14 @@
     {
       "home": "Czechia",
       "away": "South Africa",
-      "state": "next",
-      "hs": 0,
+      "state": "live",
+      "hs": 1,
       "as": 0,
       "hCode": "cz",
       "aCode": "za",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-      "group": "",
-      "date": "18 JUN · 18:00 h"
+      "minute": "57'"
     },
     {
       "home": "Switzerland",
