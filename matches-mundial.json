@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T19:36:41.251Z",
+  "updatedAt": "2026-06-18T21:36:05.226Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -61,27 +61,24 @@
     {
       "home": "Czechia",
       "away": "South Africa",
-      "state": "live",
+      "state": "final",
       "hs": 1,
-      "as": 0,
+      "as": 1,
       "hCode": "cz",
       "aCode": "za",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-      "minute": "57'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png"
     },
     {
       "home": "Switzerland",
       "away": "Bosnia-Herzegovina",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 4,
+      "as": 1,
       "hCode": "ch",
       "aCode": "ba",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
-      "group": "",
-      "date": "18 JUN · 21:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png"
     },
     {
       "home": "Canada",
