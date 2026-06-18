@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T01:40:13.321Z",
+  "updatedAt": "2026-06-18T06:26:57.418Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,15 +50,13 @@
     {
       "home": "Uzbekistan",
       "away": "Colombia",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 1,
+      "as": 3,
       "hCode": "uz",
       "aCode": "co",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-      "group": "",
-      "date": "18 JUN · 04:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
     },
     {
       "home": "Czechia",
