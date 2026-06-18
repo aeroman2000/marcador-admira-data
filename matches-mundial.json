@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-18T21:36:05.226Z",
+  "updatedAt": "2026-06-18T23:22:52.116Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -72,13 +72,14 @@
     {
       "home": "Switzerland",
       "away": "Bosnia-Herzegovina",
-      "state": "final",
-      "hs": 4,
-      "as": 1,
+      "state": "live",
+      "hs": 0,
+      "as": 0,
       "hCode": "ch",
       "aCode": "ba",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
+      "minute": "37'"
     },
     {
       "home": "Canada",
