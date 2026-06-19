@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T02:12:07.046Z",
+  "updatedAt": "2026-06-19T07:29:17.314Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -39,14 +39,13 @@
     {
       "home": "Mexico",
       "away": "South Korea",
-      "state": "live",
+      "state": "final",
       "hs": 1,
       "as": 0,
       "hCode": "mx",
       "aCode": "kr",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
-      "minute": "52'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png"
     },
     {
       "home": "United States",
