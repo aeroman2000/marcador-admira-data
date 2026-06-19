@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-19T19:02:54.201Z",
+  "updatedAt": "2026-06-19T20:42:32.038Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,15 +50,14 @@
     {
       "home": "United States",
       "away": "Australia",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "us",
       "aCode": "au",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
-      "group": "",
-      "date": "19 JUN · 21:00 h"
+      "minute": "2'"
     },
     {
       "home": "Scotland",
