@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T22:21:18.187Z",
+  "updatedAt": "2026-06-20T23:39:19.324Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -61,15 +61,14 @@
     {
       "home": "Germany",
       "away": "Ivory Coast",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "de",
       "aCode": "ci",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-      "group": "",
-      "date": "20 JUN · 22:00 h"
+      "minute": "45'+7'"
     },
     {
       "home": "Ecuador",
