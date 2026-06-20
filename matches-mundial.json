@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-20T18:07:29.879Z",
+  "updatedAt": "2026-06-20T19:53:42.405Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,14 +50,15 @@
     {
       "home": "Netherlands",
       "away": "Sweden",
-      "state": "live",
-      "hs": 2,
+      "state": "next",
+      "hs": 0,
       "as": 0,
       "hCode": "nl",
       "aCode": "sw",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
-      "minute": "45'+5'"
+      "group": "",
+      "date": "20 JUN · 19:00 h"
     },
     {
       "home": "Germany",
