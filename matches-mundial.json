@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T02:04:35.880Z",
+  "updatedAt": "2026-06-21T07:02:53.973Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -39,15 +39,14 @@
     {
       "home": "Tunisia",
       "away": "Japan",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 3,
       "hCode": "tu",
       "aCode": "jp",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-      "group": "",
-      "date": "21 JUN · 06:00 h"
+      "minute": "81'"
     },
     {
       "home": "Spain",
