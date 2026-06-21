@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T16:46:36.553Z",
+  "updatedAt": "2026-06-21T18:10:52.260Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,15 +50,14 @@
     {
       "home": "Spain",
       "away": "Saudi Arabia",
-      "state": "next",
-      "hs": 0,
+      "state": "live",
+      "hs": 3,
       "as": 0,
       "hCode": "es",
       "aCode": "sa",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
-      "group": "",
-      "date": "21 JUN · 18:00 h"
+      "minute": "45'+1'"
     },
     {
       "home": "Belgium",
