@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T21:24:43.925Z",
+  "updatedAt": "2026-06-21T22:41:57.598Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -61,27 +61,25 @@
     {
       "home": "Belgium",
       "away": "Iran",
-      "state": "live",
+      "state": "final",
       "hs": 0,
       "as": 0,
       "hCode": "be",
       "aCode": "ir",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
-      "minute": "45'+8'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png"
     },
     {
       "home": "Uruguay",
       "away": "Cape Verde",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "uy",
       "aCode": "ca",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
-      "group": "",
-      "date": "22 JUN · 00:00 h"
+      "minute": "41'"
     },
     {
       "home": "New Zealand",
