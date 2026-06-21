@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T20:01:50.804Z",
+  "updatedAt": "2026-06-21T21:24:43.925Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -61,15 +61,14 @@
     {
       "home": "Belgium",
       "away": "Iran",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "be",
       "aCode": "ir",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
-      "group": "",
-      "date": "21 JUN · 21:00 h"
+      "minute": "45'+8'"
     },
     {
       "home": "Uruguay",
