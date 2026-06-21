@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-21T22:41:57.598Z",
+  "updatedAt": "2026-06-21T23:57:32.505Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -72,14 +72,15 @@
     {
       "home": "Uruguay",
       "away": "Cape Verde",
-      "state": "live",
+      "state": "next",
       "hs": 0,
-      "as": 1,
+      "as": 0,
       "hCode": "uy",
       "aCode": "ca",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
-      "minute": "41'"
+      "group": "",
+      "date": "22 JUN · 00:00 h"
     },
     {
       "home": "New Zealand",
