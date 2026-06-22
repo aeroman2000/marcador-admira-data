@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-22T21:33:04.508Z",
+  "updatedAt": "2026-06-22T23:04:19.635Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -61,27 +61,25 @@
     {
       "home": "Argentina",
       "away": "Austria",
-      "state": "live",
-      "hs": 1,
+      "state": "final",
+      "hs": 2,
       "as": 0,
       "hCode": "ar",
       "aCode": "au",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-      "minute": "90'+4'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
     },
     {
       "home": "France",
       "away": "Iraq",
-      "state": "next",
-      "hs": 0,
+      "state": "live",
+      "hs": 1,
       "as": 0,
       "hCode": "fr",
       "aCode": "ir",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
-      "group": "",
-      "date": "22 JUN · 23:00 h"
+      "minute": "32'"
     },
     {
       "home": "Norway",
