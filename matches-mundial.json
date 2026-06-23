@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T18:24:04.319Z",
+  "updatedAt": "2026-06-23T20:30:21.719Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,15 +50,14 @@
     {
       "home": "Portugal",
       "away": "Uzbekistan",
-      "state": "next",
-      "hs": 0,
+      "state": "live",
+      "hs": 3,
       "as": 0,
       "hCode": "pt",
       "aCode": "uz",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
-      "group": "",
-      "date": "23 JUN · 19:00 h"
+      "minute": "60'"
     },
     {
       "home": "England",
