@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T20:30:21.719Z",
+  "updatedAt": "2026-06-23T21:59:32.634Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,27 +50,25 @@
     {
       "home": "Portugal",
       "away": "Uzbekistan",
-      "state": "live",
-      "hs": 3,
+      "state": "final",
+      "hs": 5,
       "as": 0,
       "hCode": "pt",
       "aCode": "uz",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
-      "minute": "60'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png"
     },
     {
       "home": "England",
       "away": "Ghana",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "gb-eng",
       "aCode": "gh",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
-      "group": "",
-      "date": "23 JUN · 22:00 h"
+      "minute": "90'+6'"
     },
     {
       "home": "Panama",
