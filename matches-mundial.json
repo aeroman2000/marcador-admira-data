@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T04:33:48.414Z",
+  "updatedAt": "2026-06-23T08:06:06.298Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -39,14 +39,13 @@
     {
       "home": "Jordan",
       "away": "Algeria",
-      "state": "live",
+      "state": "final",
       "hs": 1,
-      "as": 0,
+      "as": 2,
       "hCode": "jo",
       "aCode": "dz",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
-      "minute": "67'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
     },
     {
       "home": "Portugal",
