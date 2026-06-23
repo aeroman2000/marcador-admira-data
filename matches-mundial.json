@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-23T00:18:02.429Z",
+  "updatedAt": "2026-06-23T04:33:48.414Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -17,39 +17,36 @@
     {
       "home": "France",
       "away": "Iraq",
-      "state": "live",
-      "hs": 2,
+      "state": "final",
+      "hs": 3,
       "as": 0,
       "hCode": "fr",
       "aCode": "ir",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
-      "minute": "62'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png"
     },
     {
       "home": "Norway",
       "away": "Senegal",
-      "state": "live",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 3,
+      "as": 2,
       "hCode": "no",
       "aCode": "sn",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-      "minute": "18'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png"
     },
     {
       "home": "Jordan",
       "away": "Algeria",
-      "state": "next",
-      "hs": 0,
+      "state": "live",
+      "hs": 1,
       "as": 0,
       "hCode": "jo",
       "aCode": "dz",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
-      "group": "",
-      "date": "23 JUN · 05:00 h"
+      "minute": "67'"
     },
     {
       "home": "Portugal",
