@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T21:01:01.977Z",
+  "updatedAt": "2026-06-24T22:24:14.134Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,52 +50,48 @@
     {
       "home": "Bosnia-Herzegovina",
       "away": "Qatar",
-      "state": "live",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 3,
+      "as": 1,
       "hCode": "ba",
       "aCode": "qa",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
-      "minute": "19'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png"
     },
     {
       "home": "Switzerland",
       "away": "Canada",
-      "state": "live",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 2,
+      "as": 1,
       "hCode": "ch",
       "aCode": "ca",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-      "minute": "19'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
     },
     {
       "home": "Morocco",
       "away": "Haiti",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "ma",
       "aCode": "ht",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
-      "group": "",
-      "date": "25 JUN · 00:00 h"
+      "minute": "23'"
     },
     {
       "home": "Scotland",
       "away": "Brazil",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 2,
       "hCode": "gb-sct",
       "aCode": "br",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-      "group": "",
-      "date": "25 JUN · 00:00 h"
+      "minute": "23'"
     },
     {
       "home": "Czechia",
