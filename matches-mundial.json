@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T17:46:23.136Z",
+  "updatedAt": "2026-06-24T19:19:30.397Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,28 +50,26 @@
     {
       "home": "Bosnia-Herzegovina",
       "away": "Qatar",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "ba",
       "aCode": "qa",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/qat.png",
-      "group": "",
-      "date": "24 JUN · 21:00 h"
+      "minute": "19'"
     },
     {
       "home": "Switzerland",
       "away": "Canada",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "ch",
       "aCode": "ca",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-      "group": "",
-      "date": "24 JUN · 21:00 h"
+      "minute": "19'"
     },
     {
       "home": "Morocco",
