@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T22:24:14.134Z",
+  "updatedAt": "2026-06-24T23:39:59.268Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -72,26 +72,28 @@
     {
       "home": "Morocco",
       "away": "Haiti",
-      "state": "live",
+      "state": "next",
       "hs": 0,
-      "as": 1,
+      "as": 0,
       "hCode": "ma",
       "aCode": "ht",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/hai.png",
-      "minute": "23'"
+      "group": "",
+      "date": "25 JUN · 00:00 h"
     },
     {
       "home": "Scotland",
       "away": "Brazil",
-      "state": "live",
+      "state": "next",
       "hs": 0,
-      "as": 2,
+      "as": 0,
       "hCode": "gb-sct",
       "aCode": "br",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sco.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-      "minute": "23'"
+      "group": "",
+      "date": "25 JUN · 00:00 h"
     },
     {
       "home": "Czechia",
