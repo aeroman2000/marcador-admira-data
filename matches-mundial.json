@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-24T00:12:34.444Z",
+  "updatedAt": "2026-06-24T04:36:51.485Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -28,27 +28,25 @@
     {
       "home": "Panama",
       "away": "Croatia",
-      "state": "live",
+      "state": "final",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "pa",
       "aCode": "hr",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
-      "minute": "50'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png"
     },
     {
       "home": "Colombia",
       "away": "Congo DR",
-      "state": "next",
-      "hs": 0,
+      "state": "live",
+      "hs": 1,
       "as": 0,
       "hCode": "co",
       "aCode": "co",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
-      "group": "",
-      "date": "24 JUN · 04:00 h"
+      "minute": "84'"
     },
     {
       "home": "Bosnia-Herzegovina",
