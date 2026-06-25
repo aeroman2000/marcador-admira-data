@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T20:28:14.402Z",
+  "updatedAt": "2026-06-25T22:05:16.791Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -72,28 +72,26 @@
     {
       "home": "Curaçao",
       "away": "Ivory Coast",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "cu",
       "aCode": "ci",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
-      "group": "",
-      "date": "25 JUN · 22:00 h"
+      "minute": "27'"
     },
     {
       "home": "Ecuador",
       "away": "Germany",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "live",
+      "hs": 1,
+      "as": 1,
       "hCode": "ec",
       "aCode": "de",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-      "group": "",
-      "date": "25 JUN · 22:00 h"
+      "minute": "28'"
     },
     {
       "home": "Japan",
