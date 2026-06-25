@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-25T01:49:09.370Z",
+  "updatedAt": "2026-06-25T05:52:35.671Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,26 +50,24 @@
     {
       "home": "Czechia",
       "away": "Mexico",
-      "state": "live",
+      "state": "final",
       "hs": 0,
-      "as": 0,
+      "as": 3,
       "hCode": "cz",
       "aCode": "mx",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/cze.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-      "minute": "36'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png"
     },
     {
       "home": "South Africa",
       "away": "South Korea",
-      "state": "live",
-      "hs": 0,
+      "state": "final",
+      "hs": 1,
       "as": 0,
       "hCode": "za",
       "aCode": "kr",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png",
-      "minute": "35'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/kors.png"
     },
     {
       "home": "Curaçao",
