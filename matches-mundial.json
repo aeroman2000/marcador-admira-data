@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T01:51:56.707Z",
+  "updatedAt": "2026-06-26T05:59:05.900Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,28 +50,24 @@
     {
       "home": "Paraguay",
       "away": "Australia",
-      "state": "next",
+      "state": "final",
       "hs": 0,
       "as": 0,
       "hCode": "py",
       "aCode": "au",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
-      "group": "",
-      "date": "26 JUN · 04:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
     },
     {
       "home": "Türkiye",
       "away": "United States",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 3,
+      "as": 2,
       "hCode": "tr",
       "aCode": "us",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-      "group": "",
-      "date": "26 JUN · 04:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
     },
     {
       "home": "Norway",
