@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-26T21:41:20.667Z",
+  "updatedAt": "2026-06-26T22:49:53.481Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -72,28 +72,24 @@
     {
       "home": "Norway",
       "away": "France",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 1,
+      "as": 4,
       "hCode": "no",
       "aCode": "fr",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-      "group": "",
-      "date": "26 JUN · 21:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
     },
     {
       "home": "Senegal",
       "away": "Iraq",
-      "state": "next",
-      "hs": 0,
+      "state": "final",
+      "hs": 5,
       "as": 0,
       "hCode": "sn",
       "aCode": "ir",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png",
-      "group": "",
-      "date": "26 JUN · 21:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/irq.png"
     },
     {
       "home": "Cape Verde",
