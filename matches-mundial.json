@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T22:16:44.598Z",
+  "updatedAt": "2026-06-27T23:30:58.966Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -73,13 +73,13 @@
       "home": "Croatia",
       "away": "Ghana",
       "state": "live",
-      "hs": 0,
+      "hs": 1,
       "as": 0,
       "hCode": "hr",
       "aCode": "gh",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
-      "minute": "11'"
+      "minute": "55'"
     },
     {
       "home": "Panama",
@@ -91,7 +91,7 @@
       "aCode": "gb-eng",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "minute": "12'"
+      "minute": "58'"
     },
     {
       "home": "Colombia",
