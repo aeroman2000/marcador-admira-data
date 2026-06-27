@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-27T01:48:08.340Z",
+  "updatedAt": "2026-06-27T05:40:33.412Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -28,52 +28,46 @@
     {
       "home": "Cape Verde",
       "away": "Saudi Arabia",
-      "state": "live",
+      "state": "final",
       "hs": 0,
       "as": 0,
       "hCode": "ca",
       "aCode": "sa",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
-      "minute": "84'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png"
     },
     {
       "home": "Uruguay",
       "away": "Spain",
-      "state": "live",
+      "state": "final",
       "hs": 0,
       "as": 1,
       "hCode": "uy",
       "aCode": "es",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-      "minute": "83'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
     },
     {
       "home": "Egypt",
       "away": "Iran",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 1,
+      "as": 1,
       "hCode": "eg",
       "aCode": "ir",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
-      "group": "",
-      "date": "27 JUN · 05:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png"
     },
     {
       "home": "New Zealand",
       "away": "Belgium",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 1,
+      "as": 5,
       "hCode": "nz",
       "aCode": "be",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-      "group": "",
-      "date": "27 JUN · 05:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
     },
     {
       "home": "Croatia",
