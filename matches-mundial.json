@@ -1,74 +1,8 @@
 {
-  "updatedAt": "2026-06-26T23:50:24.199Z",
+  "updatedAt": "2026-06-27T01:48:08.340Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
-    {
-      "home": "Curaçao",
-      "away": "Ivory Coast",
-      "state": "final",
-      "hs": 0,
-      "as": 2,
-      "hCode": "cu",
-      "aCode": "ci",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/11678.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png"
-    },
-    {
-      "home": "Ecuador",
-      "away": "Germany",
-      "state": "final",
-      "hs": 2,
-      "as": 1,
-      "hCode": "ec",
-      "aCode": "de",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png"
-    },
-    {
-      "home": "Japan",
-      "away": "Sweden",
-      "state": "final",
-      "hs": 1,
-      "as": 1,
-      "hCode": "jp",
-      "aCode": "sw",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
-    },
-    {
-      "home": "Tunisia",
-      "away": "Netherlands",
-      "state": "final",
-      "hs": 1,
-      "as": 3,
-      "hCode": "tu",
-      "aCode": "nl",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/tun.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png"
-    },
-    {
-      "home": "Paraguay",
-      "away": "Australia",
-      "state": "final",
-      "hs": 0,
-      "as": 0,
-      "hCode": "py",
-      "aCode": "au",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png"
-    },
-    {
-      "home": "Türkiye",
-      "away": "United States",
-      "state": "final",
-      "hs": 3,
-      "as": 2,
-      "hCode": "tr",
-      "aCode": "us",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/tur.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png"
-    },
     {
       "home": "Norway",
       "away": "France",
@@ -94,28 +28,104 @@
     {
       "home": "Cape Verde",
       "away": "Saudi Arabia",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "ca",
       "aCode": "sa",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ksa.png",
-      "group": "",
-      "date": "27 JUN · 02:00 h"
+      "minute": "84'"
     },
     {
       "home": "Uruguay",
       "away": "Spain",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "uy",
       "aCode": "es",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/uru.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "minute": "83'"
+    },
+    {
+      "home": "Egypt",
+      "away": "Iran",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "eg",
+      "aCode": "ir",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/irn.png",
       "group": "",
-      "date": "27 JUN · 02:00 h"
+      "date": "27 JUN · 05:00 h"
+    },
+    {
+      "home": "New Zealand",
+      "away": "Belgium",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "nz",
+      "aCode": "be",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/nzl.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
+      "group": "",
+      "date": "27 JUN · 05:00 h"
+    },
+    {
+      "home": "Croatia",
+      "away": "Ghana",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "hr",
+      "aCode": "gh",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
+      "group": "",
+      "date": "27 JUN · 23:00 h"
+    },
+    {
+      "home": "Panama",
+      "away": "England",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "pa",
+      "aCode": "gb-eng",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/pan.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
+      "group": "",
+      "date": "27 JUN · 23:00 h"
+    },
+    {
+      "home": "Colombia",
+      "away": "Portugal",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "co",
+      "aCode": "pt",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "group": "",
+      "date": "28 JUN · 01:30 h"
+    },
+    {
+      "home": "Congo DR",
+      "away": "Uzbekistan",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "co",
+      "aCode": "uz",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/uzb.png",
+      "group": "",
+      "date": "28 JUN · 01:30 h"
     }
   ]
 }
