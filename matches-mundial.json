@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T22:45:47.896Z",
+  "updatedAt": "2026-06-28T23:52:12.968Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -72,14 +72,13 @@
     {
       "home": "South Africa",
       "away": "Canada",
-      "state": "live",
+      "state": "final",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "za",
       "aCode": "ca",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-      "minute": "38'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
     },
     {
       "home": "Brazil",
