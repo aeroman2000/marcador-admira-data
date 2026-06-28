@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-28T01:35:48.134Z",
+  "updatedAt": "2026-06-28T05:59:48.294Z",
   "title": "MUNDIAL 2026",
   "phase": "FASE DE GRUPOS",
   "matches": [
@@ -50,28 +50,24 @@
     {
       "home": "Algeria",
       "away": "Austria",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 3,
+      "as": 3,
       "hCode": "dz",
       "aCode": "au",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-      "group": "",
-      "date": "28 JUN · 04:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png"
     },
     {
       "home": "Jordan",
       "away": "Argentina",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 1,
+      "as": 3,
       "hCode": "jo",
       "aCode": "ar",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/jor.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-      "group": "",
-      "date": "28 JUN · 04:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png"
     },
     {
       "home": "South Africa",
