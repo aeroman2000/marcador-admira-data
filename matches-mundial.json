@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T16:06:35.307Z",
+  "updatedAt": "2026-06-29T18:19:27.010Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -17,15 +17,14 @@
     {
       "home": "Brazil",
       "away": "Japan",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "br",
       "aCode": "jp",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png",
-      "group": "",
-      "date": "29 JUN · 19:00 h"
+      "minute": "45'+4'"
     },
     {
       "home": "Germany",
