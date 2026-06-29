@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-29T21:46:38.142Z",
+  "updatedAt": "2026-06-29T22:42:21.117Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -28,14 +28,15 @@
     {
       "home": "Germany",
       "away": "Paraguay",
-      "state": "live",
+      "state": "next",
       "hs": 0,
       "as": 0,
       "hCode": "de",
       "aCode": "py",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-      "minute": "22'"
+      "group": "",
+      "date": "29 JUN · 22:30 h"
     },
     {
       "home": "Netherlands",
