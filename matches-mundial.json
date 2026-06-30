@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T21:59:22.937Z",
+  "updatedAt": "2026-06-30T23:20:17.418Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -50,15 +50,13 @@
     {
       "home": "France",
       "away": "Sweden",
-      "state": "next",
-      "hs": 0,
+      "state": "final",
+      "hs": 3,
       "as": 0,
       "hCode": "fr",
       "aCode": "sw",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png",
-      "group": "",
-      "date": "30 JUN · 23:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/swe.png"
     },
     {
       "home": "Mexico",
