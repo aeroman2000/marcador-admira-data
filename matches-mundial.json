@@ -1,19 +1,8 @@
 {
-  "updatedAt": "2026-06-29T23:42:13.012Z",
+  "updatedAt": "2026-06-30T01:49:55.565Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
-    {
-      "home": "South Africa",
-      "away": "Canada",
-      "state": "final",
-      "hs": 0,
-      "as": 1,
-      "hCode": "za",
-      "aCode": "ca",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/rsa.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/can.png"
-    },
     {
       "home": "Brazil",
       "away": "Japan",
@@ -28,27 +17,25 @@
     {
       "home": "Germany",
       "away": "Paraguay",
-      "state": "live",
+      "state": "final",
       "hs": 1,
       "as": 1,
       "hCode": "de",
       "aCode": "py",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-      "minute": "99'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
     },
     {
       "home": "Netherlands",
       "away": "Morocco",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "nl",
       "aCode": "ma",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-      "group": "",
-      "date": "30 JUN · 03:00 h"
+      "minute": "45'+5'"
     },
     {
       "home": "Ivory Coast",
@@ -127,6 +114,19 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
       "group": "",
       "date": "2 JUL · 02:00 h"
+    },
+    {
+      "home": "Spain",
+      "away": "Austria",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "es",
+      "aCode": "au",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
+      "group": "",
+      "date": "2 JUL · 21:00 h"
     }
   ]
 }
