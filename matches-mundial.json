@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-06-30T18:27:29.795Z",
+  "updatedAt": "2026-06-30T20:29:46.691Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -39,15 +39,14 @@
     {
       "home": "Ivory Coast",
       "away": "Norway",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "ci",
       "aCode": "no",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/civ.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-      "group": "",
-      "date": "30 JUN · 19:00 h"
+      "minute": "67'"
     },
     {
       "home": "France",
