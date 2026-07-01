@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T01:35:24.445Z",
+  "updatedAt": "2026-07-01T06:08:28.471Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -28,15 +28,13 @@
     {
       "home": "Mexico",
       "away": "Ecuador",
-      "state": "next",
-      "hs": 0,
+      "state": "final",
+      "hs": 2,
       "as": 0,
       "hCode": "mx",
       "aCode": "ec",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
-      "group": "",
-      "date": "1 JUL · 04:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png"
     },
     {
       "home": "England",
