@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T22:20:30.181Z",
+  "updatedAt": "2026-07-01T23:48:35.392Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -51,13 +51,13 @@
       "home": "Belgium",
       "away": "Senegal",
       "state": "live",
-      "hs": 2,
-      "as": 2,
+      "hs": 0,
+      "as": 1,
       "hCode": "be",
       "aCode": "sn",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sen.png",
-      "minute": "105'"
+      "minute": "45'+5'"
     },
     {
       "home": "United States",
