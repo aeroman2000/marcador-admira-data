@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-01T17:31:10.822Z",
+  "updatedAt": "2026-07-01T19:20:17.697Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -39,15 +39,14 @@
     {
       "home": "England",
       "away": "Congo DR",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "gb-eng",
       "aCode": "co",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/rdc.png",
-      "group": "",
-      "date": "1 JUL · 18:00 h"
+      "minute": "68'"
     },
     {
       "home": "Belgium",
