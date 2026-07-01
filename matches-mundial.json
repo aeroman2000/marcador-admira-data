@@ -1,41 +1,8 @@
 {
-  "updatedAt": "2026-06-30T23:20:17.418Z",
+  "updatedAt": "2026-07-01T01:35:24.445Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
-    {
-      "home": "Brazil",
-      "away": "Japan",
-      "state": "final",
-      "hs": 2,
-      "as": 1,
-      "hCode": "br",
-      "aCode": "jp",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/jpn.png"
-    },
-    {
-      "home": "Germany",
-      "away": "Paraguay",
-      "state": "final",
-      "hs": 1,
-      "as": 1,
-      "hCode": "de",
-      "aCode": "py",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ger.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/par.png"
-    },
-    {
-      "home": "Netherlands",
-      "away": "Morocco",
-      "state": "final",
-      "hs": 1,
-      "as": 1,
-      "hCode": "nl",
-      "aCode": "ma",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/ned.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
-    },
     {
       "home": "Ivory Coast",
       "away": "Norway",
@@ -69,7 +36,7 @@
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/ecu.png",
       "group": "",
-      "date": "1 JUL · 03:00 h"
+      "date": "1 JUL · 04:00 h"
     },
     {
       "home": "England",
@@ -122,6 +89,45 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
       "group": "",
       "date": "2 JUL · 21:00 h"
+    },
+    {
+      "home": "Portugal",
+      "away": "Croatia",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "pt",
+      "aCode": "hr",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/cro.png",
+      "group": "",
+      "date": "3 JUL · 01:00 h"
+    },
+    {
+      "home": "Switzerland",
+      "away": "Algeria",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "ch",
+      "aCode": "dz",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
+      "group": "",
+      "date": "3 JUL · 05:00 h"
+    },
+    {
+      "home": "Australia",
+      "away": "Egypt",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "au",
+      "aCode": "eg",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
+      "group": "",
+      "date": "3 JUL · 20:00 h"
     }
   ]
 }
