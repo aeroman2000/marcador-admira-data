@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T01:52:25.275Z",
+  "updatedAt": "2026-07-02T05:48:26.571Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -28,14 +28,13 @@
     {
       "home": "United States",
       "away": "Bosnia-Herzegovina",
-      "state": "live",
+      "state": "final",
       "hs": 2,
       "as": 0,
       "hCode": "us",
       "aCode": "ba",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png",
-      "minute": "86'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bih.png"
     },
     {
       "home": "Spain",
