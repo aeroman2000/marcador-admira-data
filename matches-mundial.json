@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-02T18:48:51.887Z",
+  "updatedAt": "2026-07-02T20:10:59.578Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -39,15 +39,14 @@
     {
       "home": "Spain",
       "away": "Austria",
-      "state": "next",
-      "hs": 0,
+      "state": "live",
+      "hs": 1,
       "as": 0,
       "hCode": "es",
       "aCode": "au",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/aut.png",
-      "group": "",
-      "date": "2 JUL · 21:00 h"
+      "minute": "49'"
     },
     {
       "home": "Portugal",
