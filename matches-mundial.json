@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T20:45:15.036Z",
+  "updatedAt": "2026-07-03T21:47:30.695Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -40,13 +40,13 @@
       "home": "Australia",
       "away": "Egypt",
       "state": "live",
-      "hs": 1,
-      "as": 1,
+      "hs": 0,
+      "as": 0,
       "hCode": "au",
       "aCode": "eg",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
-      "minute": "82'"
+      "minute": "4'"
     },
     {
       "home": "Argentina",
