@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-03T01:19:10.305Z",
+  "updatedAt": "2026-07-03T05:02:20.806Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -28,15 +28,13 @@
     {
       "home": "Switzerland",
       "away": "Algeria",
-      "state": "next",
-      "hs": 0,
+      "state": "final",
+      "hs": 2,
       "as": 0,
       "hCode": "ch",
       "aCode": "dz",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png",
-      "group": "",
-      "date": "3 JUL · 05:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/alg.png"
     },
     {
       "home": "Australia",
