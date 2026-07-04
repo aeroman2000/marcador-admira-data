@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T18:39:45.107Z",
+  "updatedAt": "2026-07-04T19:52:53.626Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
@@ -39,15 +39,14 @@
     {
       "home": "Canada",
       "away": "Morocco",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "ca",
       "aCode": "ma",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-      "group": "",
-      "date": "4 JUL · 19:00 h"
+      "minute": "76'"
     },
     {
       "home": "Paraguay",
