@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T21:41:41.197Z",
+  "updatedAt": "2026-07-04T22:39:08.878Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
@@ -50,15 +50,14 @@
     {
       "home": "Paraguay",
       "away": "France",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "py",
       "aCode": "fr",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-      "group": "",
-      "date": "4 JUL · 23:00 h"
+      "minute": "75'"
     },
     {
       "home": "Brazil",
