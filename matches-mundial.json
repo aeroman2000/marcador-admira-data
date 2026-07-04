@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T01:20:23.145Z",
+  "updatedAt": "2026-07-04T04:57:26.919Z",
   "title": "MUNDIAL 2026",
   "phase": "DIECISEISAVOS DE FINAL",
   "matches": [
@@ -28,15 +28,13 @@
     {
       "home": "Colombia",
       "away": "Ghana",
-      "state": "next",
-      "hs": 0,
+      "state": "final",
+      "hs": 1,
       "as": 0,
       "hCode": "co",
       "aCode": "gh",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png",
-      "group": "",
-      "date": "4 JUL · 03:30 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
     },
     {
       "home": "Canada",
