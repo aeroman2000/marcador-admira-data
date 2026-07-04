@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-04T22:39:08.878Z",
+  "updatedAt": "2026-07-04T23:42:36.345Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
@@ -52,12 +52,12 @@
       "away": "France",
       "state": "live",
       "hs": 0,
-      "as": 1,
+      "as": 0,
       "hCode": "py",
       "aCode": "fr",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-      "minute": "75'"
+      "minute": "37'"
     },
     {
       "home": "Brazil",
