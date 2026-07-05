@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-05T22:13:48.765Z",
+  "updatedAt": "2026-07-05T23:28:48.515Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
@@ -28,14 +28,15 @@
     {
       "home": "Brazil",
       "away": "Norway",
-      "state": "live",
+      "state": "next",
       "hs": 0,
       "as": 0,
       "hCode": "br",
       "aCode": "no",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-      "minute": "51'"
+      "group": "",
+      "date": "5 JUL · 22:00 h"
     },
     {
       "home": "Mexico",
