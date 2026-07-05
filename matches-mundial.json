@@ -1,41 +1,8 @@
 {
-  "updatedAt": "2026-07-04T23:42:36.345Z",
+  "updatedAt": "2026-07-05T01:25:06.059Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
-    {
-      "home": "Australia",
-      "away": "Egypt",
-      "state": "final",
-      "hs": 1,
-      "as": 1,
-      "hCode": "au",
-      "aCode": "eg",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/aus.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png"
-    },
-    {
-      "home": "Argentina",
-      "away": "Cape Verde",
-      "state": "final",
-      "hs": 3,
-      "as": 2,
-      "hCode": "ar",
-      "aCode": "ca",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/cpv.png"
-    },
-    {
-      "home": "Colombia",
-      "away": "Ghana",
-      "state": "final",
-      "hs": 1,
-      "as": 0,
-      "hCode": "co",
-      "aCode": "gh",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/gha.png"
-    },
     {
       "home": "Canada",
       "away": "Morocco",
@@ -50,14 +17,13 @@
     {
       "home": "Paraguay",
       "away": "France",
-      "state": "live",
+      "state": "final",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "py",
       "aCode": "fr",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-      "minute": "37'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
     },
     {
       "home": "Brazil",
@@ -123,6 +89,45 @@
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
       "group": "",
       "date": "7 JUL · 18:00 h"
+    },
+    {
+      "home": "Switzerland",
+      "away": "Colombia",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "ch",
+      "aCode": "co",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
+      "group": "",
+      "date": "7 JUL · 22:00 h"
+    },
+    {
+      "home": "France",
+      "away": "Morocco",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "fr",
+      "aCode": "ma",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
+      "group": "",
+      "date": "9 JUL · 22:00 h"
+    },
+    {
+      "home": "Round of 16 5 Winner",
+      "away": "Round of 16 6 Winner",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "ro",
+      "aCode": "ro",
+      "hImg": "",
+      "aImg": "",
+      "group": "",
+      "date": "10 JUL · 21:00 h"
     }
   ]
 }
