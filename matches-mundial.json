@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T20:28:38.139Z",
+  "updatedAt": "2026-07-06T21:55:53.056Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
@@ -28,15 +28,14 @@
     {
       "home": "Portugal",
       "away": "Spain",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "pt",
       "aCode": "es",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-      "group": "",
-      "date": "6 JUL · 21:00 h"
+      "minute": "65'"
     },
     {
       "home": "United States",
