@@ -1,55 +1,30 @@
 {
-  "updatedAt": "2026-07-05T23:28:48.515Z",
+  "updatedAt": "2026-07-06T01:16:34.469Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
     {
-      "home": "Canada",
-      "away": "Morocco",
-      "state": "final",
-      "hs": 0,
-      "as": 3,
-      "hCode": "ca",
-      "aCode": "ma",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/can.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png"
-    },
-    {
-      "home": "Paraguay",
-      "away": "France",
-      "state": "final",
-      "hs": 0,
-      "as": 1,
-      "hCode": "py",
-      "aCode": "fr",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/par.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png"
-    },
-    {
       "home": "Brazil",
       "away": "Norway",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 1,
+      "as": 2,
       "hCode": "br",
       "aCode": "no",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-      "group": "",
-      "date": "5 JUL · 22:00 h"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
     },
     {
       "home": "Mexico",
       "away": "England",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "mx",
       "aCode": "gb-eng",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "group": "",
-      "date": "6 JUL · 02:00 h"
+      "minute": "17'"
     },
     {
       "home": "Portugal",
@@ -128,6 +103,32 @@
       "aImg": "",
       "group": "",
       "date": "10 JUL · 21:00 h"
+    },
+    {
+      "home": "Norway",
+      "away": "Round of 16 4 Winner",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "no",
+      "aCode": "ro",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
+      "aImg": "",
+      "group": "",
+      "date": "11 JUL · 23:00 h"
+    },
+    {
+      "home": "Round of 16 7 Winner",
+      "away": "Round of 16 8 Winner",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "ro",
+      "aCode": "ro",
+      "hImg": "",
+      "aImg": "",
+      "group": "",
+      "date": "12 JUL · 03:00 h"
     }
   ]
 }
