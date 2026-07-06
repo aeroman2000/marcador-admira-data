@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T01:16:34.469Z",
+  "updatedAt": "2026-07-06T05:39:08.520Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
@@ -17,14 +17,13 @@
     {
       "home": "Mexico",
       "away": "England",
-      "state": "live",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 2,
+      "as": 3,
       "hCode": "mx",
       "aCode": "gb-eng",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "minute": "17'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
     },
     {
       "home": "Portugal",
@@ -106,14 +105,14 @@
     },
     {
       "home": "Norway",
-      "away": "Round of 16 4 Winner",
+      "away": "England",
       "state": "next",
       "hs": 0,
       "as": 0,
       "hCode": "no",
-      "aCode": "ro",
+      "aCode": "gb-eng",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-      "aImg": "",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "group": "",
       "date": "11 JUL · 23:00 h"
     },
