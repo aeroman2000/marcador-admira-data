@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T20:13:12.675Z",
+  "updatedAt": "2026-07-07T21:42:09.100Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
@@ -39,14 +39,15 @@
     {
       "home": "Switzerland",
       "away": "Colombia",
-      "state": "live",
+      "state": "next",
       "hs": 0,
       "as": 0,
       "hCode": "ch",
       "aCode": "co",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-      "minute": "13'"
+      "group": "",
+      "date": "7 JUL · 22:00 h"
     },
     {
       "home": "France",
@@ -88,14 +89,14 @@
       "date": "11 JUL · 23:00 h"
     },
     {
-      "home": "Argentina",
+      "home": "Round of 16 7 Winner",
       "away": "Round of 16 8 Winner",
       "state": "next",
       "hs": 0,
       "as": 0,
-      "hCode": "ar",
+      "hCode": "ro",
       "aCode": "ro",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
+      "hImg": "",
       "aImg": "",
       "group": "",
       "date": "12 JUL · 03:00 h"
