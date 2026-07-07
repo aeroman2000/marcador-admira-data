@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T13:27:39.260Z",
+  "updatedAt": "2026-07-07T16:02:41.410Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
@@ -28,15 +28,14 @@
     {
       "home": "Argentina",
       "away": "Egypt",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "ar",
       "aCode": "eg",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/egy.png",
-      "group": "",
-      "date": "7 JUL · 18:00 h"
+      "minute": "1'"
     },
     {
       "home": "Switzerland",
