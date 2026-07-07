@@ -1,30 +1,8 @@
 {
-  "updatedAt": "2026-07-06T23:05:50.140Z",
+  "updatedAt": "2026-07-07T00:17:57.301Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
-    {
-      "home": "Brazil",
-      "away": "Norway",
-      "state": "final",
-      "hs": 1,
-      "as": 2,
-      "hCode": "br",
-      "aCode": "no",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/bra.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png"
-    },
-    {
-      "home": "Mexico",
-      "away": "England",
-      "state": "final",
-      "hs": 2,
-      "as": 3,
-      "hCode": "mx",
-      "aCode": "gb-eng",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/mex.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
-    },
     {
       "home": "Portugal",
       "away": "Spain",
@@ -39,15 +17,14 @@
     {
       "home": "United States",
       "away": "Belgium",
-      "state": "next",
+      "state": "live",
       "hs": 0,
-      "as": 0,
+      "as": 1,
       "hCode": "us",
       "aCode": "be",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-      "group": "",
-      "date": "7 JUL · 02:00 h"
+      "minute": "17'"
     },
     {
       "home": "Argentina",
