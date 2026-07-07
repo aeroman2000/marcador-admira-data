@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-07T00:17:57.301Z",
+  "updatedAt": "2026-07-07T04:27:55.137Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
@@ -17,14 +17,13 @@
     {
       "home": "United States",
       "away": "Belgium",
-      "state": "live",
-      "hs": 0,
-      "as": 1,
+      "state": "final",
+      "hs": 1,
+      "as": 4,
       "hCode": "us",
       "aCode": "be",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-      "minute": "17'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
     },
     {
       "home": "Argentina",
@@ -67,14 +66,14 @@
     },
     {
       "home": "Spain",
-      "away": "Round of 16 6 Winner",
+      "away": "Belgium",
       "state": "next",
       "hs": 0,
       "as": 0,
       "hCode": "es",
-      "aCode": "ro",
+      "aCode": "be",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-      "aImg": "",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
       "group": "",
       "date": "10 JUL · 21:00 h"
     },
