@@ -1,30 +1,8 @@
 {
-  "updatedAt": "2026-07-07T23:38:53.815Z",
+  "updatedAt": "2026-07-08T01:09:52.050Z",
   "title": "MUNDIAL 2026",
   "phase": "OCTAVOS DE FINAL",
   "matches": [
-    {
-      "home": "Portugal",
-      "away": "Spain",
-      "state": "final",
-      "hs": 0,
-      "as": 1,
-      "hCode": "pt",
-      "aCode": "es",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/por.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
-    },
-    {
-      "home": "United States",
-      "away": "Belgium",
-      "state": "final",
-      "hs": 1,
-      "as": 4,
-      "hCode": "us",
-      "aCode": "be",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/usa.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
-    },
     {
       "home": "Argentina",
       "away": "Egypt",
@@ -39,14 +17,13 @@
     {
       "home": "Switzerland",
       "away": "Colombia",
-      "state": "live",
+      "state": "final",
       "hs": 0,
       "as": 0,
       "hCode": "ch",
       "aCode": "co",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/col.png",
-      "minute": "13'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/col.png"
     },
     {
       "home": "France",
@@ -89,16 +66,29 @@
     },
     {
       "home": "Argentina",
-      "away": "Round of 16 8 Winner",
+      "away": "Switzerland",
       "state": "next",
       "hs": 0,
       "as": 0,
       "hCode": "ar",
-      "aCode": "ro",
+      "aCode": "ch",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-      "aImg": "",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
       "group": "",
       "date": "12 JUL · 03:00 h"
+    },
+    {
+      "home": "Quarterfinal 1 Winner",
+      "away": "Quarterfinal 2 Winner",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "qu",
+      "aCode": "qu",
+      "hImg": "",
+      "aImg": "",
+      "group": "",
+      "date": "14 JUL · 21:00 h"
     }
   ]
 }
