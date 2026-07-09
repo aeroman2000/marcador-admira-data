@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-09T21:51:30.276Z",
+  "updatedAt": "2026-07-09T22:59:55.870Z",
   "title": "MUNDIAL 2026",
   "phase": "CUARTOS DE FINAL",
   "matches": [
@@ -7,13 +7,13 @@
       "home": "France",
       "away": "Morocco",
       "state": "live",
-      "hs": 0,
+      "hs": 2,
       "as": 0,
       "hCode": "fr",
       "aCode": "ma",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/mar.png",
-      "minute": "17'"
+      "minute": "87'"
     },
     {
       "home": "Spain",
