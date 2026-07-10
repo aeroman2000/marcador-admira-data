@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T21:32:37.391Z",
+  "updatedAt": "2026-07-10T22:35:08.084Z",
   "title": "MUNDIAL 2026",
   "phase": "CUARTOS DE FINAL",
   "matches": [
@@ -17,14 +17,13 @@
     {
       "home": "Spain",
       "away": "Belgium",
-      "state": "live",
-      "hs": 1,
+      "state": "final",
+      "hs": 2,
       "as": 1,
       "hCode": "es",
       "aCode": "be",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-      "minute": "61'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
     },
     {
       "home": "Norway",
@@ -54,14 +53,14 @@
     },
     {
       "home": "France",
-      "away": "Quarterfinal 2 Winner",
+      "away": "Spain",
       "state": "next",
       "hs": 0,
       "as": 0,
       "hCode": "fr",
-      "aCode": "qu",
+      "aCode": "es",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-      "aImg": "",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "group": "",
       "date": "14 JUL · 21:00 h"
     },
