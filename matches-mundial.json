@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-10T20:23:42.963Z",
+  "updatedAt": "2026-07-10T21:32:37.391Z",
   "title": "MUNDIAL 2026",
   "phase": "CUARTOS DE FINAL",
   "matches": [
@@ -17,15 +17,14 @@
     {
       "home": "Spain",
       "away": "Belgium",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "live",
+      "hs": 1,
+      "as": 1,
       "hCode": "es",
       "aCode": "be",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png",
-      "group": "",
-      "date": "10 JUL · 21:00 h"
+      "minute": "61'"
     },
     {
       "home": "Norway",
