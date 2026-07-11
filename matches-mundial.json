@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-11T21:26:09.488Z",
+  "updatedAt": "2026-07-11T22:21:33.970Z",
   "title": "MUNDIAL 2026",
   "phase": "CUARTOS DE FINAL",
   "matches": [
@@ -17,15 +17,14 @@
     {
       "home": "Norway",
       "away": "England",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "no",
       "aCode": "gb-eng",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "group": "",
-      "date": "11 JUL · 23:00 h"
+      "minute": "25'"
     },
     {
       "home": "Argentina",
