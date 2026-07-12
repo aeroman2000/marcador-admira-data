@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T00:12:15.844Z",
+  "updatedAt": "2026-07-12T03:57:40.277Z",
   "title": "MUNDIAL 2026",
   "phase": "CUARTOS DE FINAL",
   "matches": [
@@ -17,15 +17,14 @@
     {
       "home": "Argentina",
       "away": "Switzerland",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "live",
+      "hs": 2,
+      "as": 1,
       "hCode": "ar",
       "aCode": "ch",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "group": "",
-      "date": "12 JUL · 03:00 h"
+      "minute": "120'"
     },
     {
       "home": "France",
