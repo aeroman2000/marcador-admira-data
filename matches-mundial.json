@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-12T03:57:40.277Z",
+  "updatedAt": "2026-07-12T06:36:47.064Z",
   "title": "MUNDIAL 2026",
   "phase": "CUARTOS DE FINAL",
   "matches": [
@@ -17,14 +17,13 @@
     {
       "home": "Argentina",
       "away": "Switzerland",
-      "state": "live",
-      "hs": 2,
+      "state": "final",
+      "hs": 3,
       "as": 1,
       "hCode": "ar",
       "aCode": "ch",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png",
-      "minute": "120'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/sui.png"
     },
     {
       "home": "France",
@@ -41,14 +40,14 @@
     },
     {
       "home": "England",
-      "away": "Quarterfinal 4 Winner",
+      "away": "Argentina",
       "state": "next",
       "hs": 0,
       "as": 0,
       "hCode": "gb-eng",
-      "aCode": "qu",
+      "aCode": "ar",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "aImg": "",
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
       "group": "",
       "date": "15 JUL · 21:00 h"
     },
