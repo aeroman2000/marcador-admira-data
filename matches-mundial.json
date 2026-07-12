@@ -1,30 +1,18 @@
 {
-  "updatedAt": "2026-07-11T23:14:09.833Z",
+  "updatedAt": "2026-07-12T00:12:15.844Z",
   "title": "MUNDIAL 2026",
   "phase": "CUARTOS DE FINAL",
   "matches": [
     {
-      "home": "Spain",
-      "away": "Belgium",
-      "state": "final",
-      "hs": 2,
-      "as": 1,
-      "hCode": "es",
-      "aCode": "be",
-      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/bel.png"
-    },
-    {
       "home": "Norway",
       "away": "England",
-      "state": "live",
+      "state": "final",
       "hs": 1,
-      "as": 1,
+      "as": 2,
       "hCode": "no",
       "aCode": "gb-eng",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/nor.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
-      "minute": "59'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png"
     },
     {
       "home": "Argentina",
@@ -53,17 +41,30 @@
       "date": "14 JUL · 21:00 h"
     },
     {
-      "home": "Quarterfinal 3 Winner",
+      "home": "England",
       "away": "Quarterfinal 4 Winner",
       "state": "next",
       "hs": 0,
       "as": 0,
-      "hCode": "qu",
+      "hCode": "gb-eng",
       "aCode": "qu",
-      "hImg": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "aImg": "",
       "group": "",
       "date": "15 JUL · 21:00 h"
+    },
+    {
+      "home": "Semifinal 1 Loser",
+      "away": "Semifinal 2 Loser",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "se",
+      "aCode": "se",
+      "hImg": "",
+      "aImg": "",
+      "group": "",
+      "date": "18 JUL · 23:00 h"
     }
   ]
 }
