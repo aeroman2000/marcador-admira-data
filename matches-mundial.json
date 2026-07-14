@@ -1,19 +1,18 @@
 {
-  "updatedAt": "2026-07-14T22:40:34.437Z",
+  "updatedAt": "2026-07-14T23:33:46.011Z",
   "title": "MUNDIAL 2026",
   "phase": "SEMIFINALES",
   "matches": [
     {
       "home": "France",
       "away": "Spain",
-      "state": "live",
+      "state": "final",
       "hs": 0,
       "as": 2,
       "hCode": "fr",
       "aCode": "es",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
-      "minute": "89'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png"
     },
     {
       "home": "England",
@@ -29,27 +28,27 @@
       "date": "15 JUL · 21:00 h"
     },
     {
-      "home": "Semifinal 1 Loser",
+      "home": "France",
       "away": "Semifinal 2 Loser",
       "state": "next",
       "hs": 0,
       "as": 0,
-      "hCode": "se",
+      "hCode": "fr",
       "aCode": "se",
-      "hImg": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/fra.png",
       "aImg": "",
       "group": "",
       "date": "18 JUL · 23:00 h"
     },
     {
-      "home": "Semifinal 1 Winner",
+      "home": "Spain",
       "away": "Semifinal 2 Winner",
       "state": "next",
       "hs": 0,
       "as": 0,
-      "hCode": "se",
+      "hCode": "es",
       "aCode": "se",
-      "hImg": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "aImg": "",
       "group": "",
       "date": "19 JUL · 21:00 h"
