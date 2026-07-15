@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-15T20:29:05.562Z",
+  "updatedAt": "2026-07-15T21:30:53.158Z",
   "title": "MUNDIAL 2026",
   "phase": "SEMIFINALES",
   "matches": [
@@ -18,13 +18,13 @@
       "home": "England",
       "away": "Argentina",
       "state": "live",
-      "hs": 0,
+      "hs": 1,
       "as": 0,
       "hCode": "gb-eng",
       "aCode": "ar",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/eng.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-      "minute": "21'"
+      "minute": "68'"
     },
     {
       "home": "France",
