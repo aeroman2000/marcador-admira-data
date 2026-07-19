@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-19T19:29:34.458Z",
+  "updatedAt": "2026-07-19T20:24:11.061Z",
   "title": "MUNDIAL 2026",
   "phase": "FINAL",
   "matches": [
@@ -17,15 +17,14 @@
     {
       "home": "Spain",
       "away": "Argentina",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "es",
       "aCode": "ar",
       "hImg": "https://a.espncdn.com/i/teamlogos/countries/500/esp.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/countries/500/arg.png",
-      "group": "",
-      "date": "19 JUL · 21:00 h"
+      "minute": "23'"
     }
   ]
 }
