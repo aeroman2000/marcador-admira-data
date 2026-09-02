@@ -1,6 +1,85 @@
 {
-  "updatedAt": "2026-09-01T23:17:25.569Z",
+  "updatedAt": "2026-09-02T01:04:56.545Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "FASE DE LIGA",
-  "matches": []
+  "matches": [
+    {
+      "home": "AEK Athens",
+      "away": "LASK Linz",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+      "group": "",
+      "date": "8 SEP · 18:45 h"
+    },
+    {
+      "home": "Club Brugge",
+      "away": "Aston Villa",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+      "group": "",
+      "date": "8 SEP · 18:45 h"
+    },
+    {
+      "home": "Borussia Dortmund",
+      "away": "Villarreal",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+      "group": "",
+      "date": "8 SEP · 21:00 h"
+    },
+    {
+      "home": "FC Porto",
+      "away": "Manchester City",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+      "group": "",
+      "date": "8 SEP · 21:00 h"
+    },
+    {
+      "home": "Lille",
+      "away": "Real Betis",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+      "group": "",
+      "date": "8 SEP · 21:00 h"
+    },
+    {
+      "home": "Real Madrid",
+      "away": "Internazionale",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+      "group": "",
+      "date": "8 SEP · 21:00 h"
+    }
+  ]
 }
