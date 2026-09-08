@@ -1,33 +1,31 @@
 {
-  "updatedAt": "2026-09-08T13:30:31.468Z",
+  "updatedAt": "2026-09-08T17:24:15.437Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "FASE DE LIGA",
   "matches": [
     {
       "home": "AEK Athens",
       "away": "LASK Linz",
-      "state": "next",
-      "hs": 0,
+      "state": "live",
+      "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
-      "group": "",
-      "date": "8 SEP · 18:45 h"
+      "minute": "38'"
     },
     {
       "home": "Club Brugge",
       "away": "Aston Villa",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "live",
+      "hs": 1,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-      "group": "",
-      "date": "8 SEP · 18:45 h"
+      "minute": "37'"
     },
     {
       "home": "Borussia Dortmund",
