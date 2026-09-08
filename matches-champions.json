@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08T20:00:36.642Z",
+  "updatedAt": "2026-09-08T22:32:55.689Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "FASE DE LIGA",
   "matches": [
@@ -28,50 +28,46 @@
     {
       "home": "Borussia Dortmund",
       "away": "Villarreal",
-      "state": "live",
-      "hs": 0,
-      "as": 0,
+      "state": "final",
+      "hs": 3,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-      "minute": "43'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
     },
     {
       "home": "FC Porto",
       "away": "Manchester City",
-      "state": "live",
+      "state": "final",
       "hs": 0,
-      "as": 0,
+      "as": 2,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-      "minute": "42'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
     },
     {
       "home": "Lille",
       "away": "Real Betis",
-      "state": "live",
+      "state": "final",
       "hs": 2,
-      "as": 1,
+      "as": 3,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-      "minute": "42'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
     },
     {
       "home": "Real Madrid",
       "away": "Internazionale",
-      "state": "live",
+      "state": "final",
       "hs": 2,
-      "as": 0,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-      "minute": "42'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
     },
     {
       "home": "Barcelona",
