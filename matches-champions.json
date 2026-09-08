@@ -1,83 +1,77 @@
 {
-  "updatedAt": "2026-09-08T17:24:15.437Z",
+  "updatedAt": "2026-09-08T20:00:36.642Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "FASE DE LIGA",
   "matches": [
     {
       "home": "AEK Athens",
       "away": "LASK Linz",
-      "state": "live",
+      "state": "final",
       "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
-      "minute": "38'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png"
     },
     {
       "home": "Club Brugge",
       "away": "Aston Villa",
-      "state": "live",
-      "hs": 1,
-      "as": 2,
+      "state": "final",
+      "hs": 2,
+      "as": 3,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-      "minute": "37'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
     },
     {
       "home": "Borussia Dortmund",
       "away": "Villarreal",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-      "group": "",
-      "date": "8 SEP · 21:00 h"
+      "minute": "43'"
     },
     {
       "home": "FC Porto",
       "away": "Manchester City",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-      "group": "",
-      "date": "8 SEP · 21:00 h"
+      "minute": "42'"
     },
     {
       "home": "Lille",
       "away": "Real Betis",
-      "state": "next",
-      "hs": 0,
-      "as": 0,
+      "state": "live",
+      "hs": 2,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-      "group": "",
-      "date": "8 SEP · 21:00 h"
+      "minute": "42'"
     },
     {
       "home": "Real Madrid",
       "away": "Internazionale",
-      "state": "next",
-      "hs": 0,
+      "state": "live",
+      "hs": 2,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-      "group": "",
-      "date": "8 SEP · 21:00 h"
+      "minute": "42'"
     },
     {
       "home": "Barcelona",
