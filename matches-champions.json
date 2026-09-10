@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T21:58:00.922Z",
+  "updatedAt": "2026-09-10T23:51:59.607Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "FASE DE LIGA",
   "matches": [
@@ -94,26 +94,24 @@
     {
       "home": "Bayern Munich",
       "away": "Bodo/Glimt",
-      "state": "live",
-      "hs": 1,
+      "state": "final",
+      "hs": 5,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
-      "minute": "50'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png"
     },
     {
       "home": "Como",
       "away": "RB Leipzig",
-      "state": "live",
-      "hs": 2,
-      "as": 0,
+      "state": "final",
+      "hs": 4,
+      "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
-      "minute": "51'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png"
     }
   ]
 }
