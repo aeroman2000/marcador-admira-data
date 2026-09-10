@@ -1,74 +1,8 @@
 {
-  "updatedAt": "2026-09-09T22:24:06.485Z",
+  "updatedAt": "2026-09-10T00:23:18.809Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "FASE DE LIGA",
   "matches": [
-    {
-      "home": "AEK Athens",
-      "away": "LASK Linz",
-      "state": "final",
-      "hs": 1,
-      "as": 0,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png"
-    },
-    {
-      "home": "Club Brugge",
-      "away": "Aston Villa",
-      "state": "final",
-      "hs": 2,
-      "as": 3,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png"
-    },
-    {
-      "home": "Borussia Dortmund",
-      "away": "Villarreal",
-      "state": "final",
-      "hs": 3,
-      "as": 2,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png"
-    },
-    {
-      "home": "FC Porto",
-      "away": "Manchester City",
-      "state": "final",
-      "hs": 0,
-      "as": 2,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png"
-    },
-    {
-      "home": "Lille",
-      "away": "Real Betis",
-      "state": "final",
-      "hs": 2,
-      "as": 3,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png"
-    },
-    {
-      "home": "Real Madrid",
-      "away": "Internazionale",
-      "state": "final",
-      "hs": 2,
-      "as": 1,
-      "hCode": "",
-      "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png"
-    },
     {
       "home": "Barcelona",
       "away": "Feyenoord Rotterdam",
@@ -94,26 +28,98 @@
     {
       "home": "Liverpool",
       "away": "Atlético Madrid",
-      "state": "live",
-      "hs": 1,
+      "state": "final",
+      "hs": 2,
       "as": 1,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-      "minute": "45'+1'"
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png"
     },
     {
       "home": "Napoli",
       "away": "Arsenal",
-      "state": "live",
+      "state": "final",
+      "hs": 0,
+      "as": 1,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png"
+    },
+    {
+      "home": "Paris Saint-Germain",
+      "away": "Slovan Bratislava",
+      "state": "final",
+      "hs": 6,
+      "as": 1,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png"
+    },
+    {
+      "home": "Sporting CP",
+      "away": "Galatasaray",
+      "state": "final",
+      "hs": 3,
+      "as": 1,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png"
+    },
+    {
+      "home": "Fenerbahce",
+      "away": "AS Roma",
+      "state": "next",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
-      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-      "minute": "45'+2'"
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+      "group": "",
+      "date": "10 SEP · 18:45 h"
+    },
+    {
+      "home": "PSV Eindhoven",
+      "away": "Shakhtar Donetsk",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+      "group": "",
+      "date": "10 SEP · 18:45 h"
+    },
+    {
+      "home": "Bayern Munich",
+      "away": "Bodo/Glimt",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+      "group": "",
+      "date": "10 SEP · 21:00 h"
+    },
+    {
+      "home": "Como",
+      "away": "RB Leipzig",
+      "state": "next",
+      "hs": 0,
+      "as": 0,
+      "hCode": "",
+      "aCode": "",
+      "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+      "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+      "group": "",
+      "date": "10 SEP · 21:00 h"
     }
   ]
 }
