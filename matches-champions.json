@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T13:45:51.764Z",
+  "updatedAt": "2026-09-10T17:17:01.924Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "FASE DE LIGA",
   "matches": [
@@ -72,28 +72,26 @@
     {
       "home": "Fenerbahce",
       "away": "AS Roma",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-      "group": "",
-      "date": "10 SEP · 18:45 h"
+      "minute": "2'"
     },
     {
       "home": "PSV Eindhoven",
       "away": "Shakhtar Donetsk",
-      "state": "next",
+      "state": "live",
       "hs": 0,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
-      "group": "",
-      "date": "10 SEP · 18:45 h"
+      "minute": "2'"
     },
     {
       "home": "Bayern Munich",
