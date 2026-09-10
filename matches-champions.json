@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10T19:47:17.745Z",
+  "updatedAt": "2026-09-10T21:58:00.922Z",
   "title": "CHAMPIONS LEAGUE",
   "phase": "FASE DE LIGA",
   "matches": [
@@ -95,13 +95,13 @@
       "home": "Bayern Munich",
       "away": "Bodo/Glimt",
       "state": "live",
-      "hs": 0,
+      "hs": 1,
       "as": 0,
       "hCode": "",
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
-      "minute": "43'"
+      "minute": "50'"
     },
     {
       "home": "Como",
@@ -113,7 +113,7 @@
       "aCode": "",
       "hImg": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
       "aImg": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
-      "minute": "44'"
+      "minute": "51'"
     }
   ]
 }
